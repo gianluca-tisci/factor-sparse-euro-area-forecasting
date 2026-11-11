@@ -4,7 +4,6 @@
 |---|---|---|---|
 | results_reorganized | outputs/reports/results_reorganized/audit.json | scripts/reorganized_results_exhibits.py | New Results structure; current nonzero-IQR outputs |
 | robustness_table_display | outputs/reports/robustness_table_display/tables/tab_101_robustness_summary.tex | scripts/robustness_table_display.py | Appendix robustness table: including-2020 rows omitted |
-| results_ladder | outputs/reports/results_ladder/numbers.tex, outputs/reports/results_ladder/selection.csv | scripts/results_ladder_exhibits.py | Results 4.1-4.2: ladder and information-set exhibits and macros |
 | ladder_steps_display | outputs/reports/ladder_steps_display/figures/fig_198_ladder_steps.pdf, outputs/reports/ladder_steps_display/audit.json | scripts/ladder_steps_display.py | Figure display restricted to M/MQ/ME for inflation, M/MQ for manufacturing |
 | monthly_external_tables | outputs/reports/monthly_external_tables/audit.json | scripts/monthly_external_tables.py | External discussion restricted to M/ME; full saved tables retained |
 | inflation_external_selection | outputs/reports/inflation_external_selection/audit.json | scripts/inflation_external_selection.py | Matched direct-LASSO selection and core factor/sparse channel diagnostics |
@@ -33,3 +32,4 @@
 | tab_93_manufacturing_mse | outputs/tables/tab_93_manufacturing_mse.tex | scripts/paper_draft_report.py | Results: primary matrix |
 | tab_94_fixed_factor_ablation | outputs/tables/tab_94_fixed_factor_ablation.tex | scripts/paper_draft_report.py | Results: separate ablation |
 | inflation_external_selection_report | outputs/reports/inflation_external_selection/analysis.md, outputs/reports/inflation_external_selection/numbers.tex | scripts/inflation_external_selection_report.py | Results: external selection and core prediction channels |
+| results_ladder | outputs/reports/results_ladder/numbers.tex, outputs/reports/results_ladder/selection.csv | scripts/results_ladder_exhibits.py | Results 4.1-4.2: ladder and information-set exhibits and macros |

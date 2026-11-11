@@ -720,15 +720,20 @@ def main():
         )
         group_headers("tab_107_top_predictors")
         # With the external series: how often each lasso picks an external series (ME)
-        external = []
+        external = {"FarmPredict": [], "PCA_VAR_LASSO": []}
         for target, title in NAMES.items():
-            for model, key in [("FarmPredict", "FP"), ("LASSO", "Lasso")]:
+            for model, key in [
+                ("FarmPredict", "FP"),
+                ("PCA_VAR_LASSO", "FPPCA"),
+                ("LASSO", "Lasso"),
+            ]:
                 d, sc = picks(target, model, "ME")
                 share = d[~d.predictor.isin(catalogue.index)].origin.nunique() / len(sc)
                 num(f"LadExtPick{key}{title}ME", f"{100 * share:.0f}")
-                if model == "FarmPredict":
-                    external.append(100 * share)
-        num("LadExtPickFPMaxME", f"{max(external):.0f}")
+                if model in external:
+                    external[model].append(100 * share)
+        num("LadExtPickFPMaxME", f"{max(external['FarmPredict']):.0f}")
+        num("LadExtPickFPPCAMaxME", f"{max(external['PCA_VAR_LASSO']):.0f}")
 
         # ---- Robustness of the robust gains: other samples and the earlier outlier rule ----
         def sample_frame(run, target, sample):
