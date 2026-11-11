@@ -11,6 +11,13 @@ We take FarmPredict to the euro area and ask two questions:
 
 This repository holds the code, data and saved results behind every figure, table and number in the paper.
 
+> **Abstract.** We examine whether sparse forecasts of idiosyncratic components improve factor-based predictions of euro-area headline, energy and core inflation and manufacturing production.
+> Using EA-MD-QD and external indicators, we compare FarmPredict with factor-only, direct LASSO and autoregressive benchmarks in an expanding-window pseudo-real-time exercise respecting publication delays.
+> Sparse corrections yield small, robust gains for core inflation with dynamic factors and manufacturing with principal components, but no systematic advantage over LASSO.
+> Several rankings depend on the 2021–2023 crisis.
+> Quarterly series improve manufacturing's factor forecasts; external indicators improve core factor forecasts and direct LASSO forecasts for all three inflation targets.
+> Additional information helps mainly through factors or direct predictors, with limited gains from sparse residual corrections.
+
 📄 Paper (PDF): added to [`paper/`](paper/) on submission &nbsp;·&nbsp; 🔁 [Rebuild the exhibits](replicate.sh) &nbsp;·&nbsp; 🧮 [Forecasting code](src/forecasting/)
 
 ![Python](https://img.shields.io/badge/Python-3.13-3776AB?logo=python&logoColor=white)

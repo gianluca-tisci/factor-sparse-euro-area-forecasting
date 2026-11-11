@@ -1,6 +1,6 @@
 {
   "sources": {
-    "C:\\Users\\pietr\\Documents\\ML_Final_Project\\scripts\\manufacturing_common_share_comparison.py": "3e4a7bf4c707ff3f3df608c7c91744b253b241b8ae9a6197d9057bba1f61e036",
+    "scripts\\manufacturing_common_share_comparison.py": "3e4a7bf4c707ff3f3df608c7c91744b253b241b8ae9a6197d9057bba1f61e036",
     "scripts\\sparse_diagnostics.py": "77ce532973aa2d20e0e67a86f0ebd7df17c254fdc5051d7a44d1eb36eb3cbe27",
     "outputs\\forecasts\\paper_experiment_nonzero_iqr\\M\\selected_series.csv": "7b9d6470ad7c6ada0950e473ff99204df7feb243a893d4b0e2a68ba8369b087c",
     "outputs\\forecasts\\paper_experiment_nonzero_iqr\\M\\2015-01\\parameters.npz": "334c21546b3856807576de46d623794414657f6d55ebec834d0dd18951065ac4",
