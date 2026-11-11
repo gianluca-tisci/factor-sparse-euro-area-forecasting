@@ -1,0 +1,119 @@
+series_id,id_in_pdf,description,unit,group
+GDP_EA,GDP,Real Gross Domestic Product,CLV15,National Accounts
+EXPGS_EA,EXPGS,Real Export Goods and services,CLV15,National Accounts
+IMPGS_EA,IMPGS,Real Import Goods and services,CLV15,National Accounts
+GFCE_EA,GFCE,Real Government Final consumption expenditure,CLV15,National Accounts
+HFCE_EA,HFCE,Real Households consumption expenditure,CLV15,National Accounts
+CONSD_EA,CONSD,Real Households consumption expenditure: Durable Goods,CLV15,National Accounts
+CONSND_EA,CONSND,Real Households consumption expenditure: Non-Durable Goods,CLV15,National Accounts
+GCF_EA,GCF,Real Gross capital formation,CLV15,National Accounts
+GFCF_EA,GCFC,Real Gross fixed capital formation,CLV15,National Accounts
+GFACON_EA,GFACON,Real Gross Fixed Capital Formation: Construction,CLV20,National Accounts
+GFAMG_EA,GFAMG,Real Gross Fixed Capital Formation: Machinery and Equipment,CLV20,National Accounts
+AHRDI_EA,AHRDI,Adjusted Households Real Disposable Income,%chg,National Accounts
+AHFCE_EA,AHFCE,Actual Final Consumption Expenditure of Households,%chg,National Accounts
+GNFCPS_EA,GNFCPS,Gross Profit Share of Non-Financial Corporations,%,National Accounts
+GNFCIR_EA,GNFCIR,Gross Investment Share of Non-Financial Corporations,%,National Accounts
+GHIR_EA,GHIR,Gross Investment Rate of Households,%,National Accounts
+GHSR_EA,GHSR,Gross Households Savings Rate,%,National Accounts
+TEMP_EA,TEMP,Total Employment (domestic concept),1000p,Labor Market Indicators
+EMP_EA,EMP,Employees (domestic concept),1000p,Labor Market Indicators
+SEMP_EA,SEMP,Self Employment (domestic concept),1000p,Labor Market Indicators
+THOURS_EA,THOURS,Hours Worked: Total,I15,Labor Market Indicators
+EMPAG_EA,EMPAG,"Quarterly Employment: Agriculture, Forestry, Fishing",1000p,Labor Market Indicators
+EMPIN_EA,EMPIN,Quarterly Employment: Industry,1000p,Labor Market Indicators
+EMPMN_EA,EMPMN,Quarterly Employment: Manufacturing,1000p,Labor Market Indicators
+EMPCON_EA,EMPCON,Quarterly Employment: Construction,1000p,Labor Market Indicators
+EMPRT_EA,EMPRT,"Quarterly Employment: Wholesale/Retail trade, transport, food",1000p,Labor Market Indicators
+EMPIT_EA,EMPIT,Quarterly Employment: Information and Communication,1000p,Labor Market Indicators
+EMPFC_EA,EMPFC,Quarterly Employment: Financial and Insurance activities,1000p,Labor Market Indicators
+EMPRE_EA,EMPRE,Quarterly Employment: Real Estate,1000p,Labor Market Indicators
+EMPPR_EA,EMPPR,"Quarterly Employment: Professional, Scientific, Technical activities",1000p,Labor Market Indicators
+EMPPA_EA,EMPPA,"Quarterly Employment: PA, education, health ad social services",1000p,Labor Market Indicators
+EMPENT_EA,EMPENT,Quarterly Employment: Arts and recreational activities,1000p,Labor Market Indicators
+UNETOT_EA,UNETOT,Unemployment: Total (% active population),%,Labor Market Indicators
+UNEO25_EA,UNEO25,Unemployment: Over 25 years (% active population),%,Labor Market Indicators
+UNEU25_EA,UNEU25,Unemployment: Under 25 years (% active population),%,Labor Market Indicators
+RPRP_EA,RPRP,Real Labour Productivity (person),I15,Labor Market Indicators
+WS_EA,WS,Wages and salaries,CP,Labor Market Indicators
+ESC_EA,ESC,Employers’ Social Contributions,CP,Labor Market Indicators
+TASS.SDB_EA,TASS.SDB,Total Economy - Assets: Short-Term Debt Securities,MLNe,Credit Aggregates
+TASS.LBD_EA,TASS.LDB,Total Economy - Assets: Long-Term Debt Securities,MLNe,Credit Aggregates
+TASS.SLN_EA,TASS.SLN,Total Economy - Assets: Short-Term Loans,MLNe,Credit Aggregates
+TASS.LLN_EA,TASS.LLN,Total Economy - Assets: Long-Term Loans,MLNe,Credit Aggregates
+TLB.SDB_EA,TLB.SDB,Total Economy - Liabilities: Short-Term Debt Securities,MLNe,Credit Aggregates
+TLB.LBD_EA,TLB.LDB,Total Economy - Liabilities: Long-Term Debt Securities,MLNe,Credit Aggregates
+TLB.SLN_EA,TLB.SLN,Total Economy - Liabilities: Short-Term Loans,MLNe,Credit Aggregates
+TLB.LLN_EA,TLB.LLN,Total Economy - Liabilities: Long-Term Loans,MLNe,Credit Aggregates
+NFCASS_EA,NFCASS,Non-Financial Corporations: Total Financial Assets,MLNe,Credit Aggregates
+NFCASS.SLN_EA,NFCASS.SLN,Non-Financial Corporations - Assets: Short-Term Loans,MLNe,Credit Aggregates
+NFCASS.LLN_EA,NFCASS.LLN,Non-Financial Corporations - Assets: Long-Term Loans,MLNe,Credit Aggregates
+NFCLB_EA,NFCLB,Non-Financial Corporations: Total Financial Liabilities,MLNe,Credit Aggregates
+NFCLB.SLN_EA,NFCLB.SLN,Non-Financial Corporations - Liabilities - Short-Term Loans,MLNe,Credit Aggregates
+NFCLB.LLN_EA,NFCLB.LLN,Non-Financial Corporations - Liabilities - Long-Term Loans,MLNe,Credit Aggregates
+GGASS_EA,GGASS,General Government: Total Financial Assets,MLNe,Credit Aggregates
+GGASS.SLN_EA,GGASS.SLN,General Government - Assets: Short-Term Loans,MLNe,Credit Aggregates
+GGASS.LLN_EA,GGASS.LLN,General Government - Assets: Short-Term Loans,MLNe,Credit Aggregates
+GGLB_EA,GGLB,General Government: Total Financial Liabilities,MLNe,Credit Aggregates
+GGLB.SLN_EA,GGLB.SLN,General Government - Liabilities: Short-Term Loans,MLNe,Credit Aggregates
+GGLB.LLN_EA,GGLB.LLN,General Government - Liabilities: Long-Term Loans,MLNe,Credit Aggregates
+HHASS_EA,HHASS,Households: Total Financial Assets,MLNe,Credit Aggregates
+HHASS.SLN_EA,HHASS.SLN,Households - Assets: Short-Term Loans,MLNe,Credit Aggregates
+HHASS.LLN_EA,HHASS.LLN,Households - Assets: Long-Term Loans,MLNe,Credit Aggregates
+HHLB_EA,HHLB,Households: Total Financial Liabilities,MLNe,Credit Aggregates
+HHLB.SLN_EA,HHLB.SLN,Households - Liabilities: Short-Term Loans,MLNe,Credit Aggregates
+HHLB.LLN_EA,HHLB.LLN,Households - Liabilities: Long-Term Loans,MLNe,Credit Aggregates
+ULCIN_EA,ULCIN,Nominal Unit Labor Costs: Industry,I20,Labor Costs
+ULCMQ_EA,ULCMQ,Nominal Unit Labor Costs: Mining and Quarrying,I20,Labor Costs
+ULCMN_EA,ULCMN,Nominal Unit Labor Costs: Manufacturing,I20,Labor Costs
+ULCCON_EA,ULCCON,Nominal Unit Labor Costs: Construction,I20,Labor Costs
+ULCRT_EA,ULCRT,"Nominal Unit Labor Costs: Wholesale/Retail Trade, Transport, Food, IT",I20,Labor Costs
+ULCFC_EA,ULCFC,Nominal Unit Labor Costs: Financial Activities,I20,Labor Costs
+ULCRE_EA,ULCRE,Nominal Unit Labor Costs: Real Estate,I20,Labor Costs
+ULCPR_EA,ULCPR,"Nominal Unit Labor Costs: Professional, Scientific, Technical activities",I20,Labor Costs
+REER42_EA,REER42,Real Exchange Rate (42 main industrial countries),I10,Financial Markets
+ERUS_EA,ERUS,Exchange Rate (US dollar),I10,Financial Markets
+IRT3M_EACC,IRT3M,3-Months Interest Rates,%,Interest Rates
+IRT6M_EACC,IRT6M,6-Months Interest Rates,%,Interest Rates
+LTIRT_EACC,LTIRT,Long-Term Interest Rates (EMU Criterion),%,Interest Rates
+IPMN_EA,IPMN,Industrial Production Index: Manufacturing,I21,Industrial Production and Turnover
+IPCAG_EA,IPCAG,Industrial Production Index: Capital Goods,I21,Industrial Production and Turnover
+IPCOG_EA,IPCOG,Industrial Production Index: Consumer Goods,I21,Industrial Production and Turnover
+IPDCOG_EA,IPDCOG,Industrial Production Index: Durable Consumer Goods,I21,Industrial Production and Turnover
+IPNDCOG_EA,IPNDCOG,Industrial Production Index: Non Durable Consumer Goods,I21,Industrial Production and Turnover
+IPING_EA,IPING,Industrial Production Index: Intermediate Goods,I21,Industrial Production and Turnover
+IPNRG_EA,IPNRG,Industrial Production Index: Energy,I21,Industrial Production and Turnover
+TRNMN_EA,TRNMN,Turnover Index: Manufacturing,I21,Industrial Production and Turnover
+TRNCAG_EA,TRNCAG,Turnover Index: Capital Goods,I21,Industrial Production and Turnover
+TRNCOG_EA,TRNCOG,Turnover Index: Consumer Goods,I15,Industrial Production and Turnover
+TRNDCOG_EA,TRNDCOG,Turnover Index: Durable Consumer Goods,I21,Industrial Production and Turnover
+TRNNDCOG_EA,TRNNDCOG,Turnover Index: Non Durable Consumer Goods,I21,Industrial Production and Turnover
+TRNING_EA,TRNING,Turnover Index: Intermediate Goods,I21,Industrial Production and Turnover
+TRNNRG_EA,TRNNRG,Turnover Index: Energy,I21,Industrial Production and Turnover
+PPICAG_EA,PPICAG,Producer Price Index: Capital Goods,I21,Prices
+PPICOG_EA,PPICOG,Producer Price Index: Consumer Goods,I21,Prices
+PPINDCOG_EA,PPINDCOG,Producer Price Index: Non Durable Consumer Goods,I21,Prices
+PPIDCOG_EA,PPIDCOG,Producer Price Index: Durable Consumer Goods,I21,Prices
+PPIING_EA,PPIING,Producer Price Index: Intermediate Goods,I21,Prices
+PPINRG_EA,PPINRG,Producer Price Index: Energy,I21,Prices
+HICPOV_EA,HICPOV,Harmonized Index of Consumer Prices: Overall Index,I25,Prices
+HICPNEF_EA,HICPNEF,"Harmonized Index of Consumer Prices: All Items, no Energy&Food",I25,Prices
+HICPG_EA,HICPG,Harmonized Index of Consumer Prices: Goods,I25,Prices
+HICPIN_EA,HICPIN,Harmonized Index of Consumer Prices: Industrial Goods,I25,Prices
+HICPSV_EA,HICPSV,Harmonized Index of Consumer Prices: Services,I25,Prices
+HICPNG_EA,HICPNG,Harmonized Index of Consumer Prices: Energy,I25,Prices
+DFGDP_EA,DFGDP,Real Gross Domestic Product Deflator,I15,Prices
+HPRC_EA,HPRC,Residential Property Prices (BIS),MLNe,Prices
+ICONFIX_EA,ICONFIX,Industrial Confidence Indicator,Index,Confidence Indicators
+CCONFIX_EA,CCONFIX,Consumer Confidence Index,Index,Confidence Indicators
+ESENTIX_EA,ESENTIX,Economic Sentiment Indicator,Index,Confidence Indicators
+KCONFIX_EA,KCONFIX,Construction Sentiment Indicator,Index,Confidence Indicators
+RTCONFIX_EA,RTCONFIX,Retail Confidence Indicator,Index,Confidence Indicators
+SCONFIX_EA,SCONFIX,Services Confidence Indicator,Index,Confidence Indicators
+BCI_EA,BCI,Business Confidence Index,2010=100,Confidence Indicators
+CCI_EA,CCI,Consumer Confidence Index,2010=100,Confidence Indicators
+CURR_EACC,CURR,Money Stock: Currency,CP,Monetary Aggregates
+M1_EACC,M1,Money Stock: M1,CP,Monetary Aggregates
+M2_EACC,M2,Money Stock: M2,CP,Monetary Aggregates
+SHIX_EA,SHIX,Stock Price Index,I10,Financial Markets
+CAREG_EA,CAREG,Passenger’s Cars Registrations,1000U,Industrial Production and Turnover

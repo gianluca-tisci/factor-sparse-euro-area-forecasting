@@ -1,0 +1,373 @@
+{
+  "origin": "2016-02",
+  "n_train_months": 193,
+  "iterations": 28,
+  "converged": true,
+  "llf": -15306.679835979252,
+  "rho": 0.9042855124193354,
+  "crashed": false,
+  "cold_check_rho_gap": null,
+  "flagged": false,
+  "pca_iterations": 19,
+  "pca_var_order": 3,
+  "input_outliers": 3,
+  "data_availability": {
+    "UNETOT_EA": {
+      "published": 191,
+      "cleaned": 191,
+      "outliers": 0
+    },
+    "UNEO25_EA": {
+      "published": 191,
+      "cleaned": 191,
+      "outliers": 0
+    },
+    "UNEU25_EA": {
+      "published": 191,
+      "cleaned": 191,
+      "outliers": 0
+    },
+    "REER42_EA": {
+      "published": 191,
+      "cleaned": 191,
+      "outliers": 0
+    },
+    "ERUS_EA": {
+      "published": 192,
+      "cleaned": 192,
+      "outliers": 0
+    },
+    "IRT3M_EACC": {
+      "published": 192,
+      "cleaned": 192,
+      "outliers": 0
+    },
+    "IRT6M_EACC": {
+      "published": 192,
+      "cleaned": 192,
+      "outliers": 0
+    },
+    "LTIRT_EACC": {
+      "published": 192,
+      "cleaned": 192,
+      "outliers": 0
+    },
+    "IPMN_EA": {
+      "published": 191,
+      "cleaned": 191,
+      "outliers": 0
+    },
+    "IPCAG_EA": {
+      "published": 191,
+      "cleaned": 191,
+      "outliers": 0
+    },
+    "IPCOG_EA": {
+      "published": 191,
+      "cleaned": 191,
+      "outliers": 0
+    },
+    "IPDCOG_EA": {
+      "published": 191,
+      "cleaned": 191,
+      "outliers": 0
+    },
+    "IPNDCOG_EA": {
+      "published": 191,
+      "cleaned": 191,
+      "outliers": 0
+    },
+    "IPING_EA": {
+      "published": 191,
+      "cleaned": 191,
+      "outliers": 0
+    },
+    "IPNRG_EA": {
+      "published": 191,
+      "cleaned": 191,
+      "outliers": 0
+    },
+    "TRNMN_EA": {
+      "published": 190,
+      "cleaned": 190,
+      "outliers": 0
+    },
+    "TRNCAG_EA": {
+      "published": 190,
+      "cleaned": 190,
+      "outliers": 0
+    },
+    "TRNCOG_EA": {
+      "published": 190,
+      "cleaned": 190,
+      "outliers": 0
+    },
+    "TRNDCOG_EA": {
+      "published": 190,
+      "cleaned": 190,
+      "outliers": 0
+    },
+    "TRNNDCOG_EA": {
+      "published": 190,
+      "cleaned": 190,
+      "outliers": 0
+    },
+    "TRNING_EA": {
+      "published": 190,
+      "cleaned": 190,
+      "outliers": 0
+    },
+    "TRNNRG_EA": {
+      "published": 190,
+      "cleaned": 190,
+      "outliers": 0
+    },
+    "PPICAG_EA": {
+      "published": 191,
+      "cleaned": 191,
+      "outliers": 0
+    },
+    "PPICOG_EA": {
+      "published": 191,
+      "cleaned": 191,
+      "outliers": 0
+    },
+    "PPINDCOG_EA": {
+      "published": 191,
+      "cleaned": 191,
+      "outliers": 0
+    },
+    "PPIDCOG_EA": {
+      "published": 191,
+      "cleaned": 191,
+      "outliers": 0
+    },
+    "PPIING_EA": {
+      "published": 191,
+      "cleaned": 191,
+      "outliers": 0
+    },
+    "PPINRG_EA": {
+      "published": 191,
+      "cleaned": 191,
+      "outliers": 0
+    },
+    "HICPOV_EA": {
+      "published": 192,
+      "cleaned": 192,
+      "outliers": 0
+    },
+    "HICPNEF_EA": {
+      "published": 192,
+      "cleaned": 192,
+      "outliers": 0
+    },
+    "HICPG_EA": {
+      "published": 192,
+      "cleaned": 192,
+      "outliers": 0
+    },
+    "HICPIN_EA": {
+      "published": 192,
+      "cleaned": 192,
+      "outliers": 0
+    },
+    "HICPSV_EA": {
+      "published": 192,
+      "cleaned": 192,
+      "outliers": 0
+    },
+    "HICPNG_EA": {
+      "published": 192,
+      "cleaned": 192,
+      "outliers": 0
+    },
+    "ICONFIX_EA": {
+      "published": 193,
+      "cleaned": 193,
+      "outliers": 0
+    },
+    "CCONFIX_EA": {
+      "published": 193,
+      "cleaned": 193,
+      "outliers": 0
+    },
+    "ESENTIX_EA": {
+      "published": 193,
+      "cleaned": 193,
+      "outliers": 0
+    },
+    "KCONFIX_EA": {
+      "published": 193,
+      "cleaned": 193,
+      "outliers": 0
+    },
+    "RTCONFIX_EA": {
+      "published": 193,
+      "cleaned": 193,
+      "outliers": 0
+    },
+    "SCONFIX_EA": {
+      "published": 193,
+      "cleaned": 193,
+      "outliers": 0
+    },
+    "BCI_EA": {
+      "published": 192,
+      "cleaned": 192,
+      "outliers": 0
+    },
+    "CCI_EA": {
+      "published": 192,
+      "cleaned": 192,
+      "outliers": 0
+    },
+    "CURR_EACC": {
+      "published": 192,
+      "cleaned": 191,
+      "outliers": 1
+    },
+    "M1_EACC": {
+      "published": 192,
+      "cleaned": 192,
+      "outliers": 0
+    },
+    "M2_EACC": {
+      "published": 192,
+      "cleaned": 192,
+      "outliers": 0
+    },
+    "SHIX_EA": {
+      "published": 192,
+      "cleaned": 192,
+      "outliers": 0
+    },
+    "CAREG_EA": {
+      "published": 192,
+      "cleaned": 192,
+      "outliers": 0
+    },
+    "MCOILBRENTEU": {
+      "published": 192,
+      "cleaned": 192,
+      "outliers": 0
+    },
+    "PNGASEUUSDM": {
+      "published": 191,
+      "cleaned": 191,
+      "outliers": 0
+    },
+    "PCOALAUUSDM": {
+      "published": 191,
+      "cleaned": 191,
+      "outliers": 0
+    },
+    "PCOPPUSDM": {
+      "published": 191,
+      "cleaned": 191,
+      "outliers": 0
+    },
+    "WB_FOOD": {
+      "published": 192,
+      "cleaned": 192,
+      "outliers": 0
+    },
+    "GPR": {
+      "published": 192,
+      "cleaned": 190,
+      "outliers": 2
+    },
+    "EUEPUINDXM": {
+      "published": 192,
+      "cleaned": 192,
+      "outliers": 0
+    },
+    "GSCPI": {
+      "published": 192,
+      "cleaned": 192,
+      "outliers": 0
+    },
+    "INDU_006": {
+      "published": 193,
+      "cleaned": 193,
+      "outliers": 0
+    },
+    "RETA_006": {
+      "published": 193,
+      "cleaned": 193,
+      "outliers": 0
+    },
+    "CONS_006": {
+      "published": 193,
+      "cleaned": 193,
+      "outliers": 0
+    },
+    "PMAIZMTUSDM": {
+      "published": 191,
+      "cleaned": 191,
+      "outliers": 0
+    },
+    "PSOYBUSDM": {
+      "published": 191,
+      "cleaned": 191,
+      "outliers": 0
+    },
+    "PSOILUSDM": {
+      "published": 191,
+      "cleaned": 191,
+      "outliers": 0
+    },
+    "PCOCOUSDM": {
+      "published": 191,
+      "cleaned": 191,
+      "outliers": 0
+    },
+    "PCOTTINDUSDM": {
+      "published": 191,
+      "cleaned": 191,
+      "outliers": 0
+    },
+    "PRUBBUSDM": {
+      "published": 191,
+      "cleaned": 191,
+      "outliers": 0
+    },
+    "PALUMUSDM": {
+      "published": 191,
+      "cleaned": 191,
+      "outliers": 0
+    },
+    "PNICKUSDM": {
+      "published": 191,
+      "cleaned": 191,
+      "outliers": 0
+    },
+    "PIORECRUSDM": {
+      "published": 191,
+      "cleaned": 191,
+      "outliers": 0
+    },
+    "PRAWMINDEXM": {
+      "published": 191,
+      "cleaned": 191,
+      "outliers": 0
+    },
+    "FOODPR": {
+      "published": 191,
+      "cleaned": 191,
+      "outliers": 0
+    },
+    "FOODUN": {
+      "published": 191,
+      "cleaned": 191,
+      "outliers": 0
+    },
+    "IGDSX": {
+      "published": 191,
+      "cleaned": 191,
+      "outliers": 0
+    }
+  },
+  "em_min_likelihood_increment": 0.01220628551527625,
+  "seconds": 0.3457304169423878
+}

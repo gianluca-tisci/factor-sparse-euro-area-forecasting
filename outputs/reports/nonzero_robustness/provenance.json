@@ -1,0 +1,20 @@
+{
+  "source_sha256": {
+    "outputs/forecasts/paper_experiment_nonzero_iqr/forecasts.csv": "ace0953da12b061d86a33eef4535f457aa84ec2e89b24e770735515069f5f68f",
+    "outputs/forecasts/paper_experiment_nonzero_iqr/coverage.csv": "7fbfb20e596e64f3db1d6ff077369e0c1272269fadedc2dccf03d86eb77ec62b",
+    "outputs/forecasts/paper_experiment_nonzero_iqr/scores.csv": "c210396b73d7f2d69c3e624e9be2d595d7cc33b3073bcf68a10232f13add4145",
+    "scripts/plot_fixed_factor_nonzero.py": "1fab22838fdd6bebb1866d9d072372e208d62b94090c5db2d6684de9c7c64d47",
+    "src/_style.py": "dec496615e94c9a442d1bdb593591c3d93371f3b5cdab5b93ec12b24fa00b05f",
+    "outputs/forecasts/fixed_dfm_external_sparse_nonzero_iqr/forecasts.csv": "7caf0d122055a1519a87210fae5b2ea26c991a691a05a971a489d6d619b348c6",
+    "outputs/forecasts/fixed_dfm_external_sparse_nonzero_iqr/manifest.json": "7cca10b3b0463fc55df764231d083ace0ba34995062d0aa21c9584da5b8c98eb",
+    "outputs/reports/nonzero_robustness/mqe_ablation/forecasts.csv": "f6c75127f12a5e277dcb4f3b745fc42b1fd5446f80e770ea814a315b9e4eb2ab",
+    "outputs/reports/nonzero_robustness/mqe_ablation/manifest.json": "b625151b8d15c4736f3c21b82b4c733a59b7aa46c7ae586ca353f567a7686d4c"
+  },
+  "sample": "primary_without_2020",
+  "dfm_refits": 0,
+  "numerator": "Fixed DFM-M or MQ plus residual sparse stage with E",
+  "panels": [
+    "ME",
+    "MQE"
+  ]
+}

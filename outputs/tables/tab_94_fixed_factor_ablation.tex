@@ -1,0 +1,16 @@
+\begin{threeparttable}
+\begin{tabular}{lrrrr}
+\toprule
+Model & Headline & Energy & Core & Manufacturing \\
+\midrule
+DFM-M & 0.07501 & 3.891 & 0.01978 & 2.781 \\
+FarmPredict-M & 0.07535 & 3.913 & 0.01885 & 2.777 \\
+FarmPredict-ME & 0.08347 & 4.796 & \textbf{0.01481} & 3.054 \\
+LASSO-ME & \textbf{0.06540} & \textbf{2.956} & 0.01857 & \textbf{1.617} \\
+Fixed DFM-M + Sparse(M+E) & 0.07527 & 3.840 & 0.01616 & 2.777 \\
+\bottomrule
+\end{tabular}
+\begin{tablenotes}[flushleft]\footnotesize
+\item \textit{Notes:} Same primary dates as Tables~\ref{tab:headline-mse}--\ref{tab:manufacturing-mse}; inflation N = 120, manufacturing N = 121. MSE in squared percentage points. The ablation retains saved DFM-M common forecasts and projects E onto the fixed M factors within each origin; the unchanged modified-BIC LASSO uses M and E residuals. No new factor estimation. Comparisons are descriptive. Bold: the lowest MSE for each target. \textit{Source:} Saved fixed-factor ablation comparison.csv.
+\end{tablenotes}
+\end{threeparttable}

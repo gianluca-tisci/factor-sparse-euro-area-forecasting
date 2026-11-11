@@ -1,0 +1,88 @@
+category,code,meaning,short_description,frequency,source,unit,time_span
+M,UNETOT_EA,Unemployment: Total (% active population),Overall unemployment rate in the euro-area labor force.,Monthly,Eurostat,%,2000-01 – 2026-07
+M,UNEO25_EA,Unemployment: Over 25 years (% active population),Unemployment rate for people aged over 25.,Monthly,Eurostat,%,2000-01 – 2026-07
+M,UNEU25_EA,Unemployment: Under 25 years (% active population),Unemployment rate for people aged under 25.,Monthly,Eurostat,%,2000-01 – 2026-07
+M,REER42_EA,Real Exchange Rate (42 main industrial countries),Price-competitiveness measure against 42 trading partners.,Monthly,Eurostat,I10,2000-01 – 2026-07
+M,ERUS_EA,Exchange Rate (US dollar),Euro exchange-rate indicator against the US dollar.,Monthly,ECB,I10,2000-01 – 2026-08
+M,IRT3M_EACC,3-Months Interest Rates,Short-term interest-rate conditions at three-month maturity.,Monthly,Eurostat,%,2000-01 – 2026-08
+M,IRT6M_EACC,6-Months Interest Rates,Short-term interest-rate conditions at six-month maturity.,Monthly,Eurostat,%,2000-01 – 2026-08
+M,LTIRT_EACC,Long-Term Interest Rates (EMU Criterion),Longer-term bond yield used for EMU convergence.,Monthly,Eurostat,%,2000-01 – 2026-08
+M,IPMN_EA,Industrial Production Index: Manufacturing,Volume of industrial output in manufacturing.,Monthly,Eurostat,I21,2000-01 – 2026-07
+M,IPCAG_EA,Industrial Production Index: Capital Goods,Industrial output of capital goods producers.,Monthly,Eurostat,I21,2000-01 – 2026-07
+M,IPCOG_EA,Industrial Production Index: Consumer Goods,Industrial output of consumer goods producers.,Monthly,Eurostat,I21,2000-01 – 2026-07
+M,IPDCOG_EA,Industrial Production Index: Durable Consumer Goods,Output of durable consumer goods.,Monthly,Eurostat,I21,2000-01 – 2026-07
+M,IPNDCOG_EA,Industrial Production Index: Non Durable Consumer Goods,Output of non-durable consumer goods.,Monthly,Eurostat,I21,2000-01 – 2026-07
+M,IPING_EA,Industrial Production Index: Intermediate Goods,Output of intermediate goods manufacturers.,Monthly,Eurostat,I21,2000-01 – 2026-07
+M,IPNRG_EA,Industrial Production Index: Energy,Energy-sector industrial production.,Monthly,Eurostat,I21,2000-01 – 2026-07
+M,TRNMN_EA,Turnover Index: Manufacturing,Sales turnover for manufacturing firms.,Monthly,Eurostat,I21,2000-01 – 2026-06
+M,TRNCAG_EA,Turnover Index: Capital Goods,Turnover of capital-goods producers.,Monthly,Eurostat,I21,2000-01 – 2026-06
+M,TRNCOG_EA,Turnover Index: Consumer Goods,Turnover of consumer-goods producers.,Monthly,Eurostat,I15,2000-01 – 2026-06
+M,TRNDCOG_EA,Turnover Index: Durable Consumer Goods,Turnover of durable consumer-goods producers.,Monthly,Eurostat,I21,2000-01 – 2026-06
+M,TRNNDCOG_EA,Turnover Index: Non Durable Consumer Goods,Turnover of non-durable consumer-goods producers.,Monthly,Eurostat,I21,2000-01 – 2026-06
+M,TRNING_EA,Turnover Index: Intermediate Goods,Turnover of intermediate-goods producers.,Monthly,Eurostat,I21,2000-01 – 2026-06
+M,TRNNRG_EA,Turnover Index: Energy,Turnover in the energy sector.,Monthly,Eurostat,I21,2000-01 – 2026-06
+M,PPICAG_EA,Producer Price Index: Capital Goods,Factory-gate prices for capital goods.,Monthly,Eurostat,I21,2000-01 – 2026-07
+M,PPICOG_EA,Producer Price Index: Consumer Goods,Factory-gate prices for consumer goods.,Monthly,Eurostat,I21,2000-01 – 2026-07
+M,PPINDCOG_EA,Producer Price Index: Non Durable Consumer Goods,Factory-gate prices for non-durable consumer goods.,Monthly,Eurostat,I21,2000-01 – 2026-07
+M,PPIDCOG_EA,Producer Price Index: Durable Consumer Goods,Factory-gate prices for durable consumer goods.,Monthly,Eurostat,I21,2000-01 – 2026-07
+M,PPIING_EA,Producer Price Index: Intermediate Goods,Factory-gate prices for intermediate goods.,Monthly,Eurostat,I21,2000-01 – 2026-07
+M,PPINRG_EA,Producer Price Index: Energy,Producer prices for energy products.,Monthly,Eurostat,I21,2000-01 – 2026-07
+M,HICPOV_EA,Harmonized Index of Consumer Prices: Overall Index,Headline consumer-price index across all items.,Monthly,ECB,I25,2000-01 – 2026-08
+M,HICPNEF_EA,"Harmonized Index of Consumer Prices: All Items, no Energy&Food",Consumer prices excluding energy and food.,Monthly,ECB,I25,2000-01 – 2026-08
+M,HICPG_EA,Harmonized Index of Consumer Prices: Goods,Harmonized consumer prices for goods.,Monthly,ECB,I25,2000-01 – 2026-08
+M,HICPIN_EA,Harmonized Index of Consumer Prices: Industrial Goods,"Consumer prices for industrial goods, including energy.",Monthly,ECB,I25,2000-01 – 2026-08
+M,HICPSV_EA,Harmonized Index of Consumer Prices: Services,Harmonized consumer prices for services.,Monthly,ECB,I25,2000-01 – 2026-08
+M,HICPNG_EA,Harmonized Index of Consumer Prices: Energy,Harmonized consumer prices for energy.,Monthly,Eurostat,I25,2000-01 – 2026-08
+M,ICONFIX_EA,Industrial Confidence Indicator,Survey-based sentiment of industrial firms.,Monthly,Eurostat,Index,2000-01 – 2026-09
+M,CCONFIX_EA,Consumer Confidence Index,Survey-based confidence of consumers.,Monthly,Eurostat,Index,2000-01 – 2026-09
+M,ESENTIX_EA,Economic Sentiment Indicator,Economy-wide sentiment composite.,Monthly,Eurostat,Index,2000-01 – 2026-09
+M,KCONFIX_EA,Construction Sentiment Indicator,Survey-based sentiment in construction.,Monthly,Eurostat,Index,2000-01 – 2026-09
+M,RTCONFIX_EA,Retail Confidence Indicator,Survey-based confidence in retail trade.,Monthly,Eurostat,Index,2000-01 – 2026-09
+M,SCONFIX_EA,Services Confidence Indicator,Survey-based confidence in services.,Monthly,Eurostat,Index,2000-01 – 2026-09
+M,BCI_EA,Business Confidence Index,Business confidence level.,Monthly,OECD,2010=100,2000-01 – 2026-08
+M,CCI_EA,Consumer Confidence Index,Consumer confidence level.,Monthly,OECD,2010=100,2000-01 – 2026-08
+M,CURR_EACC,Money Stock: Currency,Currency outstanding within the monetary aggregate system.,Monthly,ECB,CP,2000-01 – 2026-08
+M,M1_EACC,Money Stock: M1,Narrow-money stock including currency and overnight deposits.,Monthly,ECB,CP,2000-01 – 2026-08
+M,M2_EACC,Money Stock: M2,Intermediate money stock including M1 and other deposits.,Monthly,ECB,CP,2000-01 – 2026-08
+M,SHIX_EA,Stock Price Index,Broad stock-market price indicator.,Monthly,OECD,I10,2000-01 – 2026-08
+M,CAREG_EA,Passenger’s Cars Registrations,"New passenger-car registrations, a durable-demand proxy.",Monthly,ECB,1000U,2000-01 – 2026-08
+Q,GDP_EA,Real Gross Domestic Product,Total inflation-adjusted economic production.,Quarterly,Eurostat,CLV15,2000-03 – 2026-06
+Q,EXPGS_EA,Real Export Goods and services,Real exports of goods and services.,Quarterly,Eurostat,CLV15,2000-03 – 2026-06
+Q,IMPGS_EA,Real Import Goods and services,Real imports of goods and services.,Quarterly,Eurostat,CLV15,2000-03 – 2026-06
+Q,GFCE_EA,Real Government Final consumption expenditure,Inflation-adjusted final government consumption.,Quarterly,Eurostat,CLV15,2000-03 – 2026-06
+Q,HFCE_EA,Real Households consumption expenditure,Inflation-adjusted household consumption.,Quarterly,Eurostat,CLV15,2000-03 – 2026-06
+Q,CONSD_EA,Real Households consumption expenditure: Durable Goods,Household consumption of durable goods in real terms.,Quarterly,Eurostat,CLV15,2000-03 – 2026-06
+Q,GFCF_EA,Real Gross fixed capital formation,Real fixed-investment spending.,Quarterly,Eurostat,CLV15,2000-03 – 2026-06
+Q,GFACON_EA,Real Gross Fixed Capital Formation: Construction,Real fixed investment in construction.,Quarterly,Eurostat,CLV20,2000-03 – 2026-06
+Q,GFAMG_EA,Real Gross Fixed Capital Formation: Machinery and Equipment,Real fixed investment in machinery and equipment.,Quarterly,Eurostat,CLV20,2000-03 – 2026-06
+Q,WS_EA,Wages and salaries,Aggregate wages and salaries.,Quarterly,Eurostat,CP,2000-03 – 2026-06
+Q,ESC_EA,Employers’ Social Contributions,Employers' social-security contributions.,Quarterly,Eurostat,CP,2000-03 – 2026-06
+Q,TEMP_EA,Total Employment (domestic concept),"Number of employed people, domestic concept.",Quarterly,Eurostat,1000p,2000-03 – 2026-06
+Q,THOURS_EA,Hours Worked: Total,Total hours worked in the economy.,Quarterly,Eurostat,I15,2000-03 – 2026-06
+Q,EMPRT_EA,"Quarterly Employment: Wholesale/Retail trade, transport, food","Employment in trade, transport and hospitality.",Quarterly,Eurostat,1000p,2000-03 – 2026-06
+Q,EMPPR_EA,"Quarterly Employment: Professional, Scientific, Technical activities",Employment in professional and technical services.,Quarterly,Eurostat,1000p,2000-03 – 2026-06
+Q,EMPPA_EA,"Quarterly Employment: PA, education, health ad social services","Employment in public administration, education and health.",Quarterly,Eurostat,1000p,2000-03 – 2026-06
+E,MCOILBRENTEU,Brent crude oil spot price,Monthly average benchmark price for Brent oil.,Monthly,US Energy Information Administration via FRED,USD/barrel,1987-05 – 2026-10
+E,PNGASEUUSDM,EU natural gas benchmark price,Monthly benchmark price of European natural gas.,Monthly,International Monetary Fund via FRED,USD/MMBtu,1992-01 – 2026-09
+E,PCOALAUUSDM,Australian coal benchmark price,Global benchmark price for exported Australian coal.,Monthly,International Monetary Fund via FRED,USD/metric ton,1992-01 – 2026-09
+E,PCOPPUSDM,Global copper price,Global benchmark copper price.,Monthly,International Monetary Fund via FRED,USD/metric ton,1992-01 – 2026-09
+E,WB_FOOD,World Bank food price index,Composite world food-commodity price index.,Monthly,World Bank,Index 2010=100,1960-01 – 2026-10
+E,GPR,Geopolitical Risk Index,News-based index of geopolitical tensions and threats.,Monthly,Dario Caldara and Matteo Iacoviello,Index,1900-01 – 2026-10
+E,EUEPUINDXM,European Economic Policy Uncertainty Index,News-based measure of economic-policy uncertainty.,Monthly,"Scott Baker, Nicholas Bloom and Steven Davis via FRED",Index,1987-01 – 2026-10
+E,GSCPI,Global Supply Chain Pressure Index,Composite signal of pressure in global supply chains.,Monthly,Federal Reserve Bank of New York,Standard deviations from historical mean,1998-01 – 2026-10
+E,INDU_006,Industry selling-price expectations,Industry survey balance for expected selling prices.,Monthly,"European Commission, DG ECFIN",Balance percentage points,1985-01 – 2026-10
+E,RETA_006,Retail price expectations,Retail survey balance for expected prices.,Monthly,"European Commission, DG ECFIN",Balance percentage points,1985-01 – 2026-10
+E,CONS_006,Consumer price expectations,Consumer survey balance for expected price changes.,Monthly,"European Commission, DG ECFIN",Weighted balance percentage points,1985-01 – 2026-10
+E,PMAIZMTUSDM,Global corn price,International benchmark price of maize/corn.,Monthly,International Monetary Fund via FRED,U.S. Dollars per Metric Ton,1992-01 – 2026-09
+E,PSOYBUSDM,Global soybean price,International benchmark price of soybeans.,Monthly,International Monetary Fund via FRED,U.S. Dollars per Metric Ton,1992-01 – 2026-09
+E,PSOILUSDM,Global soybean-oil price,International benchmark price of soybean oil.,Monthly,International Monetary Fund via FRED,U.S. Dollars per Metric Ton,1992-01 – 2026-09
+E,PCOCOUSDM,Global cocoa price,International benchmark price of cocoa.,Monthly,International Monetary Fund via FRED,U.S. Dollars per Metric Ton,1992-01 – 2026-09
+E,PCOTTINDUSDM,Global cotton price,International benchmark price of cotton.,Monthly,International Monetary Fund via FRED,U.S. Cents per Pound,1992-01 – 2026-09
+E,PRUBBUSDM,Global rubber price,International benchmark price of rubber.,Monthly,International Monetary Fund via FRED,U.S. Cents per Pound,1992-01 – 2026-09
+E,PALUMUSDM,Global aluminum price,International benchmark price of aluminium.,Monthly,International Monetary Fund via FRED,U.S. Dollars per Metric Ton,1992-01 – 2026-09
+E,PNICKUSDM,Global nickel price,International benchmark price of nickel.,Monthly,International Monetary Fund via FRED,U.S. Dollars per Metric Ton,1992-01 – 2026-09
+E,PIORECRUSDM,Global iron-ore price,International benchmark price of iron ore.,Monthly,International Monetary Fund via FRED,U.S. Dollars per Metric Ton,1992-01 – 2026-09
+E,PRAWMINDEXM,Agricultural raw-material price index,Aggregate prices of agricultural raw materials.,Monthly,International Monetary Fund via FRED,Index 2016 = 100,1992-01 – 2026-09
+E,FOODPR,Euro-area HICP: processed food incl. alcohol and tobacco,"HICP index for processed food, alcohol and tobacco.",Monthly,European Central Bank,2025 = 100,1999-01 – 2026-10
+E,FOODUN,Euro-area HICP: unprocessed food,HICP index for unprocessed food.,Monthly,European Central Bank,2025 = 100,1999-01 – 2026-10
+E,IGDSX,Euro-area HICP: non-energy industrial goods,HICP index for industrial goods excluding energy.,Monthly,European Central Bank,2025 = 100,1999-01 – 2026-10

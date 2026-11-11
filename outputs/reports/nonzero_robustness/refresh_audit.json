@@ -1,0 +1,15 @@
+{
+  "run": "outputs\\forecasts\\paper_experiment_nonzero_iqr",
+  "sources": {
+    "outputs/forecasts/paper_experiment_nonzero_iqr/forecasts.csv": "ace0953da12b061d86a33eef4535f457aa84ec2e89b24e770735515069f5f68f",
+    "C:/Users/pietr/Documents/ML_Final_Project/scripts/refresh_nonzero_reports.py": "67708fe6817a09fcbccc73aab8fdf8323a30a343cc3b9a47af681bc9cbc5d538",
+    "C:/Users/pietr/Documents/ML_Final_Project/scripts/external_crisis_sensitivity.py": "d85cd7e209e0d83218d7cbf973598f4117ffe5690a6bb5935489390de33e4cca",
+    "C:/Users/pietr/Documents/ML_Final_Project/scripts/inflation_crisis_sensitivity.py": "c83cea3e147e21d3bd1072311ad9707aea0861bfab4671c62d0b1ee0252df16e",
+    "C:/Users/pietr/Documents/ML_Final_Project/scripts/plot_fixed_factor_nonzero.py": "1fab22838fdd6bebb1866d9d072372e208d62b94090c5db2d6684de9c7c64d47",
+    "C:/Users/pietr/Documents/ML_Final_Project/scripts/report_energy_lasso_selections.py": "753781c91b4ce8095f728a8979b51994c9f671c12f32ba070f703dd1828f49ee",
+    "C:/Users/pietr/Documents/ML_Final_Project/scripts/report_mq_energy_diagnostics.py": "7f70f1b900708bfbc88863379d4254d32589757df5384d26d52c281590112de4",
+    "C:/Users/pietr/Documents/ML_Final_Project/scripts/report_nonzero_energy_reversal.py": "438a30b7f7cd127076eff191b78a6b13f7fb51efc91d4bbcf7b723d6ec91da7c"
+  },
+  "model_refits": 0,
+  "historical_outputs_overwritten": false
+}

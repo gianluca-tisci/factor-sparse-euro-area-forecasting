@@ -1,0 +1,3 @@
+origin,target,model,term,predictor,frequency,released_position,coefficient
+2015-04,HICPNEF_EA,sparse_only,IRT3M_EACC__M1,IRT3M_EACC,M,1,0.004131575413235983
+2015-04,HICPNG_EA,FarmPredict_MQ,HICPNG_EA__M1,HICPNG_EA,M,1,0.11888802202862829

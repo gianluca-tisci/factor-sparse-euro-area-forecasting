@@ -1,0 +1,18 @@
+\begin{threeparttable}
+\begin{tabular}{llllr}
+\toprule
+Sample & Target & Scope & Best & MSE / AR \\
+\midrule
+All forecasts & Headline & all sets & LASSO in MQE & 0.775 \\
+All forecasts & Energy & all sets & LASSO in MQE & 0.942 \\
+All forecasts & Core & all sets & PCR in ME & 0.782 \\
+All forecasts & Manufacturing & all sets & DFM in MQE & 0.305 \\
+Without Feb 2022--Dec 2023 & Headline & M/MQ & DFM-AR in MQ & 0.923 \\
+Without Feb 2022--Dec 2023 & Energy & M/MQ & DFM-AR in MQ & 0.944 \\
+Without Feb 2022--Dec 2023 & Core & M/MQ & DFM-AR in M & 0.898 \\
+\bottomrule
+\end{tabular}
+\begin{tablenotes}[flushleft]\footnotesize
+\item \textit{Notes:} Most accurate specification of each target, with the same forecasts scored on two other samples. All forecasts: all \PaperOrigins{} forecast dates, 2020 and 2026 target months included, all information sets. Without Feb 2022--Dec 2023: target months to December 2025, without 2020 and without February 2022 to December 2023; inflation targets in M and MQ only. \textit{Source:} Own calculations.
+\end{tablenotes}
+\end{threeparttable}

@@ -1,0 +1,90 @@
+{
+  "MCOILBRENTEU": {
+    "url": "https://fred.stlouisfed.org/data/MCOILBRENTEU",
+    "returncode": 0,
+    "error": "",
+    "retrieved_utc": "2026-11-07T00:59:08.769272+00:00",
+    "bytes": 96527,
+    "sha256": "c7cc580186d49d69aca5675a48aba5cbf87e85343848438da83851f60e5d5dcd"
+  },
+  "PNGASEUUSDM": {
+    "url": "https://fred.stlouisfed.org/data/PNGASEUUSDM",
+    "returncode": 0,
+    "error": "",
+    "retrieved_utc": "2026-11-07T00:59:09.223601+00:00",
+    "bytes": 93261,
+    "sha256": "614f0ec7d4ee5f600d3917e97c871afaf36941f5571a89d39e94f2803ad281a0"
+  },
+  "PCOALAUUSDM": {
+    "url": "https://fred.stlouisfed.org/data/PCOALAUUSDM",
+    "returncode": 0,
+    "error": "",
+    "retrieved_utc": "2026-11-07T00:59:09.727875+00:00",
+    "bytes": 93242,
+    "sha256": "bdcfe3b1d8a140891caeb27bcb0c296dd95325b2ab910cc3f109dd54f4f54340"
+  },
+  "PCOPPUSDM": {
+    "url": "https://fred.stlouisfed.org/data/PCOPPUSDM",
+    "returncode": 0,
+    "error": "",
+    "retrieved_utc": "2026-11-07T00:59:10.105142+00:00",
+    "bytes": 93506,
+    "sha256": "a977677e99439377e49c4ef73ddf75a9fcf360fa781980fc0ac45e4a85864987"
+  },
+  "EUEPUINDXM": {
+    "url": "https://fred.stlouisfed.org/data/EUEPUINDXM",
+    "returncode": 0,
+    "error": "",
+    "retrieved_utc": "2026-11-07T00:59:10.510018+00:00",
+    "bytes": 98916,
+    "sha256": "da0b3ee32028d05e6478a1abbca735609186b9c06a505f5100de5f4319cafda3"
+  },
+  "GPR.xls": {
+    "url": "https://www.matteoiacoviello.com/gpr_files/data_gpr_export.xls",
+    "returncode": 0,
+    "error": "",
+    "retrieved_utc": "2026-11-07T00:59:11.196991+00:00",
+    "bytes": 2718208,
+    "sha256": "32e54b08df4cbc2954c3b89970008a7a3a2f2e94ed4184135908248e4d01cd83"
+  },
+  "pink_sheet.xlsx": {
+    "url": "https://thedocs.worldbank.org/en/doc/74e8be41ceb20fa0da750cda2f6b9e4e-0050012026/related/CMO-Historical-Data-Monthly.xlsx",
+    "returncode": 0,
+    "error": "",
+    "retrieved_utc": "2026-11-07T00:59:11.394526+00:00",
+    "bytes": 587760,
+    "sha256": "3c8d9d8dbb48342fdbf24777c39a8ce8964cc2fd0958f72f6779e6e4ad99cde2"
+  },
+  "gscpi.xlsx": {
+    "url": "https://www.newyorkfed.org/medialibrary/research/interactives/gscpi/downloads/gscpi_data.xlsx",
+    "returncode": 0,
+    "error": "",
+    "retrieved_utc": "2026-11-07T00:59:13.158572+00:00",
+    "bytes": 252416,
+    "sha256": "b3f8104551277c1fdbef99187d650cb1739d8d4d6d4dcd8279457e36b9e1e3a1"
+  },
+  "industry.zip": {
+    "url": "https://ec.europa.eu/economy_finance/db_indicators/surveys/documents/series/nace2_ecfin_2610/industry_total_sa_nace2.zip",
+    "returncode": 0,
+    "error": "",
+    "retrieved_utc": "2026-11-07T00:59:15.997486+00:00",
+    "bytes": 1100888,
+    "sha256": "03a4c16f78f5d2833e7ceb6002d9c93eee97d1500cd3d57cfb320246e5ec2ebb"
+  },
+  "consumer.zip": {
+    "url": "https://ec.europa.eu/economy_finance/db_indicators/surveys/documents/series/nace2_ecfin_2610/consumer_total_sa_nace2.zip",
+    "returncode": 0,
+    "error": "",
+    "retrieved_utc": "2026-11-07T00:59:17.897472+00:00",
+    "bytes": 1143525,
+    "sha256": "8a3ee54cb34a92e464da4b6363e62e7ab81b4da4586512b7e423026e59bf84a5"
+  },
+  "retail.zip": {
+    "url": "https://ec.europa.eu/economy_finance/db_indicators/surveys/documents/series/nace2_ecfin_2610/retail_total_sa_nace2.zip",
+    "returncode": 0,
+    "error": "",
+    "retrieved_utc": "2026-11-07T00:59:19.983790+00:00",
+    "bytes": 638530,
+    "sha256": "55da7740d86f9f7b7df0dc2f368c5828ef5beb82dbbf8cecea29b50a7b402f83"
+  }
+}

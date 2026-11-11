@@ -1,0 +1,20 @@
+\begin{threeparttable}
+\begin{tabular}{lrrrr}
+\toprule
+Model & M & MQ & ME & MQE \\
+\midrule
+RW & 4.000 & 4.000 & 4.000 & 4.000 \\
+AR & 1.798 & 1.798 & 1.798 & 1.798 \\
+PCR & 1.649 & --- & \textbf{1.571} & --- \\
+PCA-VAR & 1.640 & --- & 1.654 & --- \\
+PCA-VAR-LASSO & \textbf{1.618} & --- & 1.744 & --- \\
+DFM & 2.781 & 2.518 & 3.046 & 2.795 \\
+DFM-AR & 2.864 & 2.570 & 3.163 & 2.914 \\
+LASSO & 1.703 & \textbf{1.699} & 1.617 & \textbf{1.608} \\
+FarmPredict & 2.777 & 2.518 & 3.054 & 2.795 \\
+\bottomrule
+\end{tabular}
+\begin{tablenotes}[flushleft]\footnotesize
+\item \textit{Notes:} N = 121. Primary matched target months through December 2025, excluding 2020; MSE in squared percentage points of monthly log changes. M: monthly panel; Q: quarterly additions; E: external monthly additions. RW and AR are shared forecasts; --- denotes an inapplicable specification. Expanding-window estimation and in-window tuning as in Section~\ref{sec:methods}. Bold: the lowest MSE in each column; it does not imply statistical significance. \textit{Source:} Saved paper experiment, EA-MD-QD and external providers.
+\end{tablenotes}
+\end{threeparttable}

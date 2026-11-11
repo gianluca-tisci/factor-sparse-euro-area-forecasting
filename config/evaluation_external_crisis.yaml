@@ -1,0 +1,23 @@
+classification: EXPLORATORY_EVALUATION_SENSITIVITY
+source_run: outputs/forecasts/paper_experiment
+ablation_runs:
+  ME: outputs/forecasts/fixed_dfm_external_sparse
+  MQE: outputs/reports/external_fixed_factor/mqe_ablation
+targets: [HICPOV_EA, HICPNG_EA, HICPNEF_EA]
+score_through: '2025-12'
+always_exclude_target_years: [2020]
+exclusions:
+  outside_energy_crisis:
+    start: '2021-01'
+    end: '2023-12'
+  outside_war_phase:
+    start: '2022-02'
+    end: '2023-12'
+training_policy: unchanged_saved_forecasts
+output: outputs/reports/external_crisis_sensitivity
+window_source: codex/inflation-crisis-sensitivity:config/evaluation_inflation_crisis.yaml
+rationale: >-
+  Reuse the previously specified broad and narrow scoring exclusions for all
+  three inflation targets. The broad 2021-2023 calendar-year envelope is an
+  operational exclusion, not an official uniform crisis dating. No model refits,
+  new variable selection or removal of crisis observations from training.

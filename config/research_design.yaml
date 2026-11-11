@@ -1,0 +1,238 @@
+# Adopted main design: Pietro Ganzerli, 7 November 2026; D-18/D-23/D-28/D-34/D-36/D-45/D-66/D-67.
+# Experiment scope (question, targets, information sets, external series): D-68, @gianluca-tisci, 8 November 2026.
+project:
+  title: 'TBD (team); working title: factor + sparse forecasting of the euro-area
+    panel'
+  protocol_version: '1.7'
+  status: DESIGN_IN_PROGRESS
+  random_seed: 2026
+research:
+  primary_question: 'Does sector-specific information contain predictive signals beyond
+    common euro-area macroeconomic factors, and can sparse modelling exploit them?
+    Forecasting, not causal identification. Secondary: does quarterly (Q) or external
+    (E) information improve the monthly forecasts, separately and jointly (information
+    sets M, MQ, ME, MQE)? (D-68, specification section 1; wording for the paper TBD,
+    team)'
+  targets: HICPOV_EA, HICPNG_EA, HICPNEF_EA, IPMN_EA, every result reported; the other
+    43 monthly series are predictors only (D-33, D-68)
+  target:
+    source: EA-MD-QD release 09.2026, euro-area file (ECB/Eurostat HICP)
+    series_ids:
+    - HICPOV_EA
+    - HICPNG_EA
+    - HICPNEF_EA
+    - IPMN_EA
+    description: 'Headline, energy and core HICP inflation, and manufacturing industrial
+      production (D-33); HICPNG_EA is the energy target of D-09'
+    transformation: 'each target in its TR3 form; prices MoM: 100 x dlog (D-10); implied
+      YoY reported alongside'
+    unit: 'percent, month-on-month (100 x dlog of the index level; D-10, D-16)'
+    included_in_factor_panel: true
+  forecast:
+    horizons_months:
+    - 1
+    information_cutoff: last day of each month; first unpublished month of each target,
+      with D-14/D-15 publication delays
+    start_date: 2000-02
+    end_date: 2026-08
+    evaluation_start: 2015-01 by forecast origin; 2010-2014 are training data, no
+      separate validation period
+    initial_train_months: 179
+    window_type: expanding
+    window_length_months: 'not applicable (expanding window, D-23)'
+    tuning_method: 'in-window information criteria: modified BIC for the lasso (D-36),
+      BIC for AR and VAR lags (D-34)'
+    information_timing: release_calendar
+    first_origin: 2015-01
+sources:
+  candidate_macroeconomic_panel: EA-MD-QD release 09.2026 (Zenodo record 23064892),
+    euro-area file
+  data_strategies:
+  - 'A (primary): 47 monthly euro-area EA-MD-QD series plus a selected quarterly subset
+    (D-35; whitelist in factor_model.quarterly_panel), mixed-frequency EM + Kalman factors,
+    LASSO on monthly and quarterly residuals, run on four information sets (D-68)
+    (docs/analysis/mixed_frequency/strategy_A.md)'
+  - 'B (optional fallback, D-08): 47 monthly EA-MD-QD series + pre-specified monthly
+    blocks; PCA + VAR + LASSO (docs/analysis/monthly_integration/strategy_B.md)'
+  strategy_B_added_blocks: 'none (Strategy B is an unstarted fallback, D-08)'
+  sectoral_series: []
+  information_sets:
+    M: 47 monthly
+    MQ: 47 monthly + 16 quarterly
+    ME: 47 monthly + 24 external
+    MQE: 47 monthly + 16 quarterly + 24 external
+  external_series:
+  - MCOILBRENTEU
+  - PNGASEUUSDM
+  - PCOALAUUSDM
+  - PCOPPUSDM
+  - WB_FOOD
+  - GPR
+  - EUEPUINDXM
+  - GSCPI
+  - INDU_006
+  - RETA_006
+  - CONS_006
+  - PMAIZMTUSDM
+  - PSOYBUSDM
+  - PSOILUSDM
+  - PCOCOUSDM
+  - PCOTTINDUSDM
+  - PRUBBUSDM
+  - PALUMUSDM
+  - PNICKUSDM
+  - PIORECRUSDM
+  - PRAWMINDEXM
+  - FOODPR
+  - FOODUN
+  - IGDSX
+  external_series_manifest: data/external/factor_sparse/manifest.json
+  realtime_vintages_available: false
+  release_lag_registry_file: 'data/metadata/data_dictionary.csv (release_lag_months, release_lag_rule); external series: data/external/factor_sparse/manifest.json'
+  reference_specification: Barigozzi, Lissona & Tonni (2026, JAE) unless clearly not
+    right (D-15)
+  data_dictionary_file: data/metadata/data_dictionary.csv
+preprocessing:
+  series_transform_registry: EA-MD-QD info sheet, column TR3 (D-16)
+  missing_value_policy: 'EM handles missing observations in the factor model; outliers are set missing (D-18); the sparse step uses complete training rows and available forecast columns (D-36)'
+  seasonal_adjustment_policy: EA-MD-QD adjusted series as provided (EAdata.xlsx),
+    incl. the authors' own adjustment; raw/ not used (D-12)
+  outlier_policy: '|x - median| > 10 IQR -> missing; median/IQR fitted in-window;
+    2020-21 exempt; training inputs/responses cleaned, published scoring outcomes
+    never edited (D-18)'
+  training_outlier_policy: cleaned_inputs_and_labels
+  covid_policy: 'main: no special treatment; robustness: real (class R) series missing
+    2020-2021, Kalman-filled (D-17)'
+  aggregation_policy_file: 'docs/analysis/mixed_frequency/strategy_A.md (quarterly series: triangular weights (1,2,3,2,1)/3, D-35)'
+  standardization: train_only; panel series and lasso regressors centered and scaled
+    in each window (D-19)
+stage1_observed_components:
+  baseline: intercept_only
+  additional_controls: []
+  formal_covariance_test: 'not implemented (optional, protocol section E)'
+factor_model:
+  method: exact_EM_mixed_frequency
+  selection_methods:
+  - bai_ng_ic2
+  - alessi_barigozzi_capasso_2010
+  - ahn_horenstein_er
+  selection_rule: Alessi et al. as in the original paper (random subsamples down to
+    3/4 of the series, mode over 200 draws); if unstable, median of the three rounded
+    up; once at the first forecast date, shared by all mixed-frequency models, targets
+    and the PCA+VAR benchmark (D-20, D-30)
+  selected_r: 3
+  candidate_r:
+  - 2
+  - 4
+  factor_block: joint_var
+  reestimation: warm start at every subsequent origin; balanced PCA t-3 for first/recovery/check
+    starts; relative likelihood tolerance 1e-6
+  reestimation_start: warm
+  cold_start_method: balanced_t_minus_3
+  fit_monitoring:
+    llf_decrease_action: error
+    em_cap_cold_first_fit: 3000
+    em_cap_warm_fit: 500
+    log_each_date:
+    - converged
+    - iterations
+    - rho_factor_block
+    - crashed
+    flag_if: not converged at cap, rho >= 0.98, crash, or cold-check disagreement
+    flag_rho: 0.98
+    cold_check_every_n_dates: 12
+    cold_check_rho_gap: 0.02
+    rescale_transition: false
+  idiosyncratic_working_model: white_noise
+  quarterly_panel:
+  - GDP_EA
+  - HFCE_EA
+  - GFCE_EA
+  - GFCF_EA
+  - EXPGS_EA
+  - IMPGS_EA
+  - WS_EA
+  - TEMP_EA
+  - THOURS_EA
+  - EMPRT_EA
+  - EMPPR_EA
+  - EMPPA_EA
+  - GFACON_EA
+  - GFAMG_EA
+  - CONSD_EA
+  - ESC_EA
+  formal_residual_covariance_test: 'not implemented (optional, protocol section E)'
+  initial_factor_variance: 10.0
+  idiosyncratic_variance_floor: 1.0e-08
+factor_forecast:
+  method: state_space_factor_dynamics
+  lag_selection: 'Strategy A: fixed, no selection (D-30); PCA+VAR benchmark: BIC at
+    every date (D-34)'
+  factor_var_order: 2
+  max_lag: 8
+sparse_model:
+  method: LASSO
+  forecast_formulation: separate_common_and_idiosyncratic_then_reconstruct
+  dependent_variable: cleaned target idiosyncratic component; one-step only
+  predictor_scope: 'idiosyncratic components of the 47 monthly series and selected
+    quarterly subset (D-35): monthly at monthly lags, quarterly at released quarterly
+    lags (strategy_A.md)'
+  candidate_lags: last four released monthly positions; last two released quarters
+  penalty_selection: modified_BIC_FMM
+  multistep_strategy: direct
+  external_indicators_placement: the 24 external series (sources.external_series) are
+    factor-panel members and LASSO candidates in the ME and MQE information sets only;
+    M and MQ are EA-MD-QD only (D-43, D-68)
+  network_partial_covariance_branch: false
+  monthly_lags: 4
+  quarterly_lags: 2
+  cap_divisor: 10
+  cap_basis: effective_complete_training_rows
+  missing_feature_policy: complete_training_rows_and_available_forecast_columns
+# Ten-model ladder of the 47-target analysis (D-34, D-40). The paper's nine families and 24 specifications: D-34, config/forecast_paper.yaml.
+benchmarks:
+  pca_missing_method: balanced_months_then_VAR_carry
+  mandatory:
+  - AR
+  - PCR
+  - AR_PCR
+  - PCA_VAR
+  - sparse_only
+  - PCA_VAR_LASSO
+  strategy_A_models:
+  - MF_factor_only
+  - MF_factor_own_AR
+  - FarmPredict_M
+  - FarmPredict_MQ
+  optional:
+  - naive
+  - seasonal_AR
+  - elastic_net
+  - GDFM_FNETS
+  ar_max_lag: 4
+  pca_var_min_lag: 0
+evaluation:
+  metrics:
+  - RMSE
+  - MAE
+  - relative_MSE
+  tests:
+  - Clark_West
+  - Diebold_Mariano
+  subsamples:
+  - with_and_without_2020
+  - 2021_2023_descriptive
+  scoring_values: published target values; outlier cleaning applies to training inputs
+    and responses only
+  test_horizon_scoring: same_dates_and_scale
+  scenario_ablations:
+  - factor_only_vs_own_AR_vs_FarmPredict
+  - FarmPredict_M_vs_MQ
+  report_realtime_vs_pseudorealtime: true
+implementation:
+  record_decisions_log: true
+  check_availability: true
+  enforce_no_leakage: true
+  save_origin_level_forecasts: true
+  save_metrics_and_configuration: true
+  save_package_versions: true

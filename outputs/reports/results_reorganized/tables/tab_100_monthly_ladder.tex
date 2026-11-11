@@ -1,0 +1,20 @@
+\begin{threeparttable}
+\begin{tabular}{lrrrrr}
+\toprule
+Method & Headline & Energy & Core & Manufacturing & US IP (FMM) \\
+\midrule
+AR & 1.000 & 1.000 & 1.000 & 1.000 & 1.0000 \\
+LASSO & 1.004 & 1.056 & 1.313 & 0.947 & 0.9217 \\
+PCR & 0.975 & 1.083 & 0.930 & 0.917 & 1.0249 \\
+PCA+VAR & 0.968 & 1.189 & 1.179 & 0.912 & --- \\
+DFM & 0.893 & 1.248 & 1.078 & 1.547 & --- \\
+DFM+AR & 0.886 & 1.184 & 0.933 & 1.592 & --- \\
+FP-PCA & 0.942 & 1.070 & 1.176 & 0.900 & 0.9080 \\
+FP-DFM & 0.897 & 1.255 & 1.026 & 1.544 & --- \\
+Original AR-PCR & --- & --- & --- & --- & 0.9215 \\
+\bottomrule
+\end{tabular}
+\begin{tablenotes}[flushleft]\footnotesize
+\item \textit{Notes:} M only, primary nonzero-IQR sample without 2020. MSE divided by AR, lower is better. FP-DFM and FP-PCA are FarmPredict variants. The US column records Fan et al. (2023), not an identical euro-area design; its FarmPredict uses PCA. Their AR-PCR is distinct from our DFM+AR. Source: saved forecasts and FMM Section 4.2.
+\end{tablenotes}
+\end{threeparttable}

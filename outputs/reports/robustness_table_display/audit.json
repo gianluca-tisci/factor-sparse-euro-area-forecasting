@@ -1,0 +1,6 @@
+{
+  "source": "outputs\\reports\\results_reorganized\\tables\\tab_101_robustness_summary.tex",
+  "sha256": "d1bfcfb8f6d2a04d89afed1490a556e3cc99c3d4cd9f4c0443564e2b26431fbc",
+  "rows_removed": 4,
+  "rows_retained": 7
+}

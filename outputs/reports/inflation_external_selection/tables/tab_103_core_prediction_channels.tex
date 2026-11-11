@@ -1,0 +1,23 @@
+\begin{threeparttable}
+\begin{tabular}{llrrrrr}
+\toprule
+sample & panel & DFM & DFM\_AR & FarmPredict & Fixed\_factors & LASSO \\
+\midrule
+crisis & M & 0.046 & 0.040 & 0.044 & NaN & 0.062 \\
+crisis & ME & 0.031 & 0.032 & 0.032 & 0.037 & 0.046 \\
+crisis & MQ & 0.047 & 0.040 & 0.044 & NaN & 0.060 \\
+crisis & MQE & 0.031 & 0.031 & 0.032 & 0.035 & 0.043 \\
+outside\_crisis & M & 0.009 & 0.008 & 0.008 & NaN & 0.008 \\
+outside\_crisis & ME & 0.007 & 0.007 & 0.007 & 0.007 & 0.007 \\
+outside\_crisis & MQ & 0.009 & 0.007 & 0.008 & NaN & 0.007 \\
+outside\_crisis & MQE & 0.007 & 0.007 & 0.007 & 0.007 & 0.007 \\
+primary & M & 0.020 & 0.017 & 0.019 & NaN & 0.024 \\
+primary & ME & 0.014 & 0.014 & 0.015 & 0.016 & 0.019 \\
+primary & MQ & 0.020 & 0.017 & 0.019 & NaN & 0.023 \\
+primary & MQE & 0.015 & 0.015 & 0.015 & 0.016 & 0.018 \\
+\bottomrule
+\end{tabular}
+\begin{tablenotes}[flushleft]\footnotesize
+\item \textit{Notes:} Matched primary dates and sensitivity excluding 2021--2023; 2020 excluded throughout. Fixed factors retain M for ME and MQ for MQE. Source: saved forecasts and ablations.
+\end{tablenotes}
+\end{threeparttable}

@@ -1,0 +1,17 @@
+{
+  "sources": {
+    "outputs/forecasts/paper_experiment_nonzero_iqr/forecasts.csv": "ace0953da12b061d86a33eef4535f457aa84ec2e89b24e770735515069f5f68f",
+    "outputs/forecasts/paper_experiment_nonzero_iqr/coverage.csv": "7fbfb20e596e64f3db1d6ff077369e0c1272269fadedc2dccf03d86eb77ec62b",
+    "outputs/forecasts/paper_experiment_nonzero_iqr/scores.csv": "c210396b73d7f2d69c3e624e9be2d595d7cc33b3073bcf68a10232f13add4145",
+    "outputs/reports/industrial_nonzero/winners.csv": "39dedbc44d95aeb31cb8f65acd2a394fa38978cb30de3ae17ca9cdc8c945e7e8",
+    "outputs/reports/nonzero_robustness/external_crisis/comparisons.csv": "5454d2a223d65ddeae292de0baa4a3571082635a7ef92e20b0ff119f19837d5c",
+    "outputs/reports/nonzero_robustness/endpoint_checks.csv": "98a751c1fc794e64734db3fc8413b6945b919eb3fda21d4d3c2c48341b649944",
+    "outputs/reports/nonzero_robustness/energy_lasso_selections/README.md": "e0a1726058bd0ac597a8a642bff09c9bcbe16b12bacc4acf79f2805e33b2808f",
+    "docs/literature/fan_masini_medeiros_2023.md": "8677f0cfa63776076d1cbd673141afd837261a97d1cd893c48abfbc9c15f6a1a",
+    "scripts/results_section_nonzero.py": "d2edea76fdb952e8e062f856958c875aeea45084641a1c65184025261ec9e7a1",
+    "src/_style.py": "dec496615e94c9a442d1bdb593591c3d93371f3b5cdab5b93ec12b24fa00b05f"
+  },
+  "run": "current D-72 nonzero-IQR",
+  "model_refits": 0,
+  "endpoint_checks": 41
+}

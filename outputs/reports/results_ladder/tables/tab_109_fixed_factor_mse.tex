@@ -1,0 +1,20 @@
+\begin{threeparttable}
+\begin{tabular}{@{}llrrrrr@{}}
+\toprule
+\multicolumn{2}{c}{} & \multicolumn{2}{c}{DFM} & \multicolumn{2}{c}{FP-DFM} & LASSO \\
+\cmidrule(lr){3-4} \cmidrule(lr){5-6}
+Sets & Target & Without E & E in factors & E in factors & E in sparse step & E in LASSO \\
+\midrule
+M $\to$ ME & Headline & 0.075013 & 0.084231 & 0.083472 & 0.075275 & 0.065402 \\
+ & Energy & 3.891094 & 4.752399 & 4.796374 & 3.840230 & 2.956302 \\
+ & Core & 0.019784 & 0.014423 & 0.014814 & 0.016163 & 0.018572 \\
+\midrule
+MQ $\to$ MQE & Headline & 0.075377 & 0.085647 & 0.084992 & 0.075487 & 0.063384 \\
+ & Energy & 3.924545 & 4.956739 & 4.907608 & 3.841062 & 2.925525 \\
+ & Core & 0.020007 & 0.014515 & 0.014648 & 0.015782 & 0.017783 \\
+\bottomrule
+\end{tabular}
+\begin{tablenotes}[flushleft]\footnotesize
+\item \textit{Notes:} MSE in squared percentage points. Columns as in Table~\ref{tab:external-routes}; the candidate predictors and training months of the sparse step can differ between columns. Target months to December 2025, without 2020. \textit{Source:} Own calculations.
+\end{tablenotes}
+\end{threeparttable}

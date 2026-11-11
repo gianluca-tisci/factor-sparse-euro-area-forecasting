@@ -1,0 +1,31 @@
+\begin{threeparttable}
+\begin{tabular}{llrrr}
+\toprule
+target & model & n & MSE & RMSE \\
+\midrule
+HICPOV\_EA & DFM-M & 120 & 0.075 & 0.274 \\
+HICPOV\_EA & FarmPredict-M & 120 & 0.075 & 0.274 \\
+HICPOV\_EA & FarmPredict-ME & 120 & 0.083 & 0.289 \\
+HICPOV\_EA & LASSO-ME & 120 & 0.065 & 0.256 \\
+HICPOV\_EA & Fixed\_DFM\_M\_external\_sparse & 120 & 0.075 & 0.274 \\
+HICPNG\_EA & DFM-M & 120 & 3.891 & 1.973 \\
+HICPNG\_EA & FarmPredict-M & 120 & 3.913 & 1.978 \\
+HICPNG\_EA & FarmPredict-ME & 120 & 4.796 & 2.190 \\
+HICPNG\_EA & LASSO-ME & 120 & 2.956 & 1.719 \\
+HICPNG\_EA & Fixed\_DFM\_M\_external\_sparse & 120 & 3.840 & 1.960 \\
+HICPNEF\_EA & DFM-M & 120 & 0.020 & 0.141 \\
+HICPNEF\_EA & FarmPredict-M & 120 & 0.019 & 0.137 \\
+HICPNEF\_EA & FarmPredict-ME & 120 & 0.015 & 0.122 \\
+HICPNEF\_EA & LASSO-ME & 120 & 0.019 & 0.136 \\
+HICPNEF\_EA & Fixed\_DFM\_M\_external\_sparse & 120 & 0.016 & 0.127 \\
+IPMN\_EA & DFM-M & 121 & 2.781 & 1.668 \\
+IPMN\_EA & FarmPredict-M & 121 & 2.777 & 1.666 \\
+IPMN\_EA & FarmPredict-ME & 121 & 3.054 & 1.748 \\
+IPMN\_EA & LASSO-ME & 121 & 1.617 & 1.271 \\
+IPMN\_EA & Fixed\_DFM\_M\_external\_sparse & 121 & 2.777 & 1.666 \\
+\bottomrule
+\end{tabular}
+\begin{tablenotes}[flushleft]\footnotesize
+\item \textit{Notes:} Original matched primary dates; target months through December 2025, excluding 2020. Fixed saved DFM-M; original modified-BIC LASSO. Selection counts any released lag once per origin. Source: saved paper experiment and fixed-DFM external sparse ablation.
+\end{tablenotes}
+\end{threeparttable}

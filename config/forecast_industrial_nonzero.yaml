@@ -1,0 +1,34 @@
+# Approved sectoral robustness; same estimator settings as the cold paper run.
+# Executed in M and MQ only; scoring through 2025-12, excluding 2020 target months.
+inherits: config/forecast_analysis.yaml
+classification: EXPLORATORY_INDUSTRIAL_ROBUSTNESS
+reestimation_start: cold
+targets:
+- HICPOV_EA
+- HICPNG_EA
+- HICPNEF_EA
+- IPMN_EA
+- IPCAG_EA
+- IPCOG_EA
+- IPDCOG_EA
+- IPNDCOG_EA
+- IPING_EA
+- IPNRG_EA
+score_through: 2025-12
+quarterly_series:
+- GDP_EA
+- EXPGS_EA
+- IMPGS_EA
+- GFCE_EA
+- HFCE_EA
+- CONSD_EA
+- GFCF_EA
+- GFACON_EA
+- GFAMG_EA
+- WS_EA
+- ESC_EA
+- TEMP_EA
+- THOURS_EA
+- EMPRT_EA
+- EMPPR_EA
+- EMPPA_EA

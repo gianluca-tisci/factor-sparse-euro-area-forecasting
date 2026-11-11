@@ -1,0 +1,19 @@
+\begin{threeparttable}
+\begin{tabular}{lllrlr}
+\toprule
+Target & Set & Best & MSE & Second & Gain (\%) \\
+\midrule
+Headline & M & DFM-AR & 0.074418 & DFM & 0.79 \\
+Headline & MQ & DFM & 0.075377 & DFM-AR & 0.03 \\
+Energy & M & AR & 3.118783 & LASSO & 5.30 \\
+Energy & MQ & AR & 3.118783 & LASSO & 0.51 \\
+Core & M & PCR & 0.017074 & DFM-AR & 0.30 \\
+Core & MQ & DFM-AR & 0.017125 & AR & 6.73 \\
+Manufacturing & M & FP-PCA & 1.618389 & PCA-VAR & 1.30 \\
+Manufacturing & MQ & LASSO & 1.699408 & AR & 5.51 \\
+\bottomrule
+\end{tabular}
+\begin{tablenotes}[flushleft]\footnotesize
+\item \textit{Notes:} Current D-72 nonzero-IQR cold run; matched target dates through December 2025, excluding 2020. Gain is the winner's MSE reduction against the second-best model; descriptive, not a significance test. FP-DFM and FP-PCA denote the two FarmPredict variants. Source: saved paper experiment.
+\end{tablenotes}
+\end{threeparttable}

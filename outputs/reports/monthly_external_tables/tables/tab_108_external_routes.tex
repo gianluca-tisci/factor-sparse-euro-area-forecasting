@@ -1,0 +1,16 @@
+\begin{threeparttable}
+\begin{tabular}{@{}lrrrrrrrr@{}}
+\toprule
+ & \multicolumn{4}{c}{Full sample} & \multicolumn{4}{c}{Without 2021--2023} \\
+\cmidrule(lr){2-5} \cmidrule(lr){6-9}
+Target & Without E & E in factors & E in sparse step & E in LASSO & Without E & E in factors & E in sparse step & E in LASSO \\
+\midrule
+Headline & 0.897 & 0.993 & 0.896 & \textbf{0.778} & 1.138 & 1.123 & 1.114 & \textbf{0.954} \\
+Energy & 1.255 & 1.538 & 1.231 & \textbf{0.948} & \textbf{1.037} & 1.064 & 1.040 & 1.047 \\
+Core & 1.026 & \textbf{0.807} & 0.880 & 1.012 & 1.074 & 0.960 & 0.966 & \textbf{0.928} \\
+\bottomrule
+\end{tabular}
+\begin{tablenotes}[flushleft]\footnotesize
+\item \textit{Notes:} MSE relative to AR; lowest of the four in each row and sample in bold. The first three columns are FP-DFM: in M without E; in ME with E entering factor estimation and the sparse step; and with the M factors and common forecast fixed and external residuals added only to the sparse step. E in LASSO is direct LASSO in ME. Full sample: matched target months through December 2025, excluding 2020; the second sample additionally excludes January 2021--December 2023. Source: saved paper and fixed-factor experiments; M to ME only.
+\end{tablenotes}
+\end{threeparttable}

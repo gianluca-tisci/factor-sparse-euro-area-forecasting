@@ -1,0 +1,53 @@
+{
+  "configuration": {
+    "classification": "EXPLORATORY_EVALUATION_SENSITIVITY",
+    "source_run": "outputs/forecasts/paper_experiment_nonzero_iqr",
+    "ablation_runs": {
+      "ME": "outputs/forecasts/fixed_dfm_external_sparse_nonzero_iqr",
+      "MQE": "outputs/reports/nonzero_robustness/mqe_ablation"
+    },
+    "targets": [
+      "HICPOV_EA",
+      "HICPNG_EA",
+      "HICPNEF_EA"
+    ],
+    "score_through": "2025-12",
+    "always_exclude_target_years": [
+      2020
+    ],
+    "exclusions": {
+      "outside_energy_crisis": {
+        "start": "2021-01",
+        "end": "2023-12"
+      },
+      "outside_war_phase": {
+        "start": "2022-02",
+        "end": "2023-12"
+      }
+    },
+    "training_policy": "unchanged_saved_forecasts",
+    "output": "outputs/reports/nonzero_robustness/external_crisis",
+    "window_source": "codex/inflation-crisis-sensitivity:config/evaluation_inflation_crisis.yaml",
+    "rationale": "Reuse the previously specified broad and narrow scoring exclusions for all three inflation targets. The broad 2021-2023 calendar-year envelope is an operational exclusion, not an official uniform crisis dating. No model refits, new variable selection or removal of crisis observations from training."
+  },
+  "sources": {
+    "config/evaluation_external_crisis_nonzero.yaml": "03c173f4a005509cc3e2d8143e08744ad3966de3b4d3c74edbb45269150cbeb3",
+    "scripts/external_crisis_sensitivity.py": "d85cd7e209e0d83218d7cbf973598f4117ffe5690a6bb5935489390de33e4cca",
+    "src/_style.py": "dec496615e94c9a442d1bdb593591c3d93371f3b5cdab5b93ec12b24fa00b05f",
+    "scripts/report_mq_energy_diagnostics.py": "7f70f1b900708bfbc88863379d4254d32589757df5384d26d52c281590112de4",
+    "outputs/forecasts/paper_experiment_nonzero_iqr/forecasts.csv": "ace0953da12b061d86a33eef4535f457aa84ec2e89b24e770735515069f5f68f",
+    "outputs/forecasts/paper_experiment_nonzero_iqr/coverage.csv": "7fbfb20e596e64f3db1d6ff077369e0c1272269fadedc2dccf03d86eb77ec62b",
+    "outputs/forecasts/paper_experiment_nonzero_iqr/scores.csv": "c210396b73d7f2d69c3e624e9be2d595d7cc33b3073bcf68a10232f13add4145",
+    "outputs/forecasts/fixed_dfm_external_sparse_nonzero_iqr/forecasts.csv": "7caf0d122055a1519a87210fae5b2ea26c991a691a05a971a489d6d619b348c6",
+    "outputs/forecasts/fixed_dfm_external_sparse_nonzero_iqr/manifest.json": "7cca10b3b0463fc55df764231d083ace0ba34995062d0aa21c9584da5b8c98eb",
+    "outputs/reports/nonzero_robustness/mqe_ablation/forecasts.csv": "f6c75127f12a5e277dcb4f3b745fc42b1fd5446f80e770ea814a315b9e4eb2ab",
+    "outputs/reports/nonzero_robustness/mqe_ablation/manifest.json": "b625151b8d15c4736f3c21b82b4c733a59b7aa46c7ae586ca353f567a7686d4c",
+    "outputs/forecasts/paper_experiment_nonzero_iqr/M/metadata.json": "c3414dce9fdde7eb2743f2b642b0c1fc4c75fbb62abd9b178bd2cab6abcbe605",
+    "outputs/forecasts/paper_experiment_nonzero_iqr/MQ/metadata.json": "e4388b52160305f8282610dd1735c4b9f8554b0eb7000a8814ee100508152014",
+    "outputs/forecasts/paper_experiment_nonzero_iqr/ME/metadata.json": "adf27759a8f50bd84184f0aad5b6d3195da8e9d6cd19819d90372cce36360572",
+    "outputs/forecasts/paper_experiment_nonzero_iqr/MQE/metadata.json": "f1418b22422cbfedd9d10a00f4cd3a0993afc4addff51e003377dc6cb28b0e2b"
+  },
+  "model_refits": 0,
+  "figures": 12,
+  "endpoint_checks": 342
+}

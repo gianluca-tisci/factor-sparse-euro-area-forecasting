@@ -1,0 +1,32 @@
+\begin{threeparttable}
+\begin{tabular}{@{}llrlrlr@{}}
+\toprule
+ & \multicolumn{2}{c}{LASSO} & \multicolumn{2}{c}{FP-DFM} & \multicolumn{2}{c}{FP-PCA} \\
+\cmidrule(lr){2-3} \cmidrule(lr){4-5} \cmidrule(lr){6-7}
+Target & Predictor & \% & Predictor & \% & Predictor & \% \\
+\midrule
+Headline & \textit{No predictor} & 14 & \textit{No predictor} & 50 & \textit{No predictor} & 34 \\
+ & Own past & 84 & 3-month interest rate & 31 & Consumer confidence & 33 \\
+ & PPI, consumer goods & 84 & Construction sentiment & 12 & Long-term interest rate & 31 \\
+ & PPI, durable consumer goods & 36 & Consumer confidence & 8 & 6-month interest rate & 17 \\
+\midrule
+Energy & \textit{No predictor} & 18 & \textit{No predictor} & 92 & \textit{No predictor} & 32 \\
+ & Own past & 68 & Business confidence & 6 & Consumer confidence & 33 \\
+ & Stock prices & 42 & PPI, energy & 6 & PPI, energy & 32 \\
+ & PPI, energy & 32 & HICP, industrial goods & 2 & 6-month interest rate & 27 \\
+\midrule
+Core & \textit{No predictor} & 3 & \textit{No predictor} & 47 & \textit{No predictor} & 77 \\
+ & 3-month interest rate & 63 & Long-term interest rate & 39 & Economic sentiment & 15 \\
+ & PPI, consumer goods & 34 & Construction sentiment & 24 & Long-term interest rate & 8 \\
+ & Long-term interest rate & 19 & 3-month interest rate & 15 & --- &  \\
+\midrule
+Manufacturing & \textit{No predictor} & 45 & \textit{No predictor} & 65 & \textit{No predictor} & 55 \\
+ & Industrial confidence & 55 & Own past & 34 & 3-month interest rate & 29 \\
+ & Car registrations & 50 & PPI, energy & 16 & Production, capital goods & 18 \\
+ & Stock prices & 50 & Youth unemployment & 2 & Core HICP & 9 \\
+\bottomrule
+\end{tabular}
+\begin{tablenotes}[flushleft]\footnotesize
+\item \textit{Notes:} Information set M. For each lasso: share of forecast dates on which it selects no predictor, and its three most frequent predictors with their selection shares. LASSO selects among the published series, FP-DFM and FP-PCA among idiosyncratic components; own past: the target's latest value (LASSO) or latest idiosyncratic component. Names shortened; full names in Table~\ref{tab:series}. Target months to December 2025, without 2020. \textit{Source:} Own calculations.
+\end{tablenotes}
+\end{threeparttable}

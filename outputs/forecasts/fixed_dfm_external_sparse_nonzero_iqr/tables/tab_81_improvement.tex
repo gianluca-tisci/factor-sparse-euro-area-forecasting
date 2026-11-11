@@ -1,0 +1,19 @@
+\begin{threeparttable}
+\begin{tabular}{llrr}
+\toprule
+target & benchmark & MSE\_improvement\_pct & RMSE\_improvement\_pct \\
+\midrule
+HICPOV\_EA & FarmPredict-M & 0.094 & 0.047 \\
+HICPOV\_EA & FarmPredict-ME & 9.820 & 5.037 \\
+HICPNG\_EA & FarmPredict-M & 1.867 & 0.938 \\
+HICPNG\_EA & FarmPredict-ME & 19.935 & 10.521 \\
+HICPNEF\_EA & FarmPredict-M & 14.235 & 7.391 \\
+HICPNEF\_EA & FarmPredict-ME & $-$9.111 & $-$4.456 \\
+IPMN\_EA & FarmPredict-M & 0.011 & 0.005 \\
+IPMN\_EA & FarmPredict-ME & 9.081 & 4.649 \\
+\bottomrule
+\end{tabular}
+\begin{tablenotes}[flushleft]\footnotesize
+\item \textit{Notes:} Original matched primary dates; target months through December 2025, excluding 2020. Fixed saved DFM-M; original modified-BIC LASSO. Selection counts any released lag once per origin. Source: saved paper experiment and fixed-DFM external sparse ablation.
+\end{tablenotes}
+\end{threeparttable}

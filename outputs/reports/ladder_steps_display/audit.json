@@ -1,0 +1,12 @@
+{
+  "sources": {
+    "outputs\\forecasts\\paper_experiment_nonzero_iqr\\forecasts.csv": "ace0953da12b061d86a33eef4535f457aa84ec2e89b24e770735515069f5f68f",
+    "outputs\\forecasts\\paper_experiment_nonzero_iqr\\coverage.csv": "7fbfb20e596e64f3db1d6ff077369e0c1272269fadedc2dccf03d86eb77ec62b",
+    "outputs\\forecasts\\paper_experiment_nonzero_iqr\\statistical_tests.csv": "a479dde0d8d1cc03cbfd94e771350a8d0696ad6197c076622278b7136651842b",
+    "C:\\Users\\pietr\\Documents\\ML_Final_Project\\scripts\\ladder_steps_display.py": "28e790e75e01cedc2637432ae332b1a67864e650c39cf3921c45848bbf30b3ab",
+    "scripts\\results_ladder_exhibits.py": "24c672fe97e20c78d566372129d986c011693db02f498dd93eef5114924981ee"
+  },
+  "displayed_rows": 11,
+  "checked_comparisons": 29,
+  "model_refits": 0
+}

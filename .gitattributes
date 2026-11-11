@@ -1,0 +1,46 @@
+# LaTeX sources: LF in the repository and in every working tree (macOS and Windows alike),
+# so a different line ending never shows up as "every line changed".
+# Scoped on purpose: data/raw must stay byte-for-byte as downloaded (hashes in manifest.json).
+# diff=tex gives git's LaTeX-aware hunk headers (shows the \section a change sits in).
+*.tex text eol=lf diff=tex
+*.bib text eol=lf
+.latexmkrc text eol=lf
+
+# Generated report snapshots have byte hashes; preserve them on every platform.
+outputs/reports/balanced_forecasts/** -text whitespace=cr-at-eol
+outputs/reports/current_rerun/** -text whitespace=cr-at-eol
+# Unified diffs intentionally contain a single space on blank context lines.
+outputs/reports/current_rerun/execution_changes.diff whitespace=-blank-at-eol,cr-at-eol
+
+# External snapshot CSV hashes refer to the LF bytes stored in Git.
+data/external/factor_sparse/*.csv text eol=lf
+outputs/reports/industrial_robustness/** -text whitespace=cr-at-eol
+
+# Hashed nonzero-IQR report snapshots retain their original bytes on every OS.
+outputs/reports/industrial_nonzero/** -text whitespace=cr-at-eol
+outputs/reports/nonzero_robustness/** -text whitespace=cr-at-eol
+outputs/reports/results_section_draft/** -text whitespace=cr-at-eol
+outputs/reports/results_section_nonzero/** -text whitespace=cr-at-eol
+# LaTeX exhibits retain the repository-wide LF source convention.
+outputs/reports/results_section_draft/**/*.tex text eol=lf
+outputs/reports/results_section_nonzero/**/*.tex text eol=lf
+
+# Preserve the selection diagnostics supporting the revised Results section.
+outputs/reports/inflation_external_selection/** -text whitespace=cr-at-eol
+outputs/reports/energy_residual_selection/** -text whitespace=cr-at-eol
+outputs/reports/robustness_table_display/** -text whitespace=cr-at-eol
+outputs/reports/inflation_external_selection/**/*.tex text eol=lf
+outputs/reports/inflation_external_selection/numbers.tex text eol=lf
+outputs/reports/robustness_table_display/**/*.tex text eol=lf
+scripts/inflation_external_selection.py text eol=lf
+scripts/energy_residual_selection.py text eol=lf
+
+# Common-share diagnostics retain their hashed snapshot and source bytes.
+outputs/reports/core_common_share_comparison/** -text whitespace=cr-at-eol
+outputs/reports/manufacturing_common_share_comparison/** -text whitespace=cr-at-eol
+outputs/reports/core_common_share_comparison/**/*.tex text eol=lf
+outputs/reports/manufacturing_common_share_comparison/**/*.tex text eol=lf
+outputs/reports/core_common_share_comparison/numbers.tex text eol=lf
+outputs/reports/manufacturing_common_share_comparison/numbers.tex text eol=lf
+scripts/core_common_share_comparison.py text eol=lf
+scripts/manufacturing_common_share_comparison.py -text whitespace=cr-at-eol

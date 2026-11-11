@@ -1,0 +1,23 @@
+{
+  "baseline_sha256": "ace0953da12b061d86a33eef4535f457aa84ec2e89b24e770735515069f5f68f",
+  "original_cells_verified": 7280,
+  "script_sha256": "1253a3db4c3597d60cac8afb77a58f9d4894bdac6383450fe7ad2759b3f2de52",
+  "parallel_driver_sha256": "0f611cd7090468e75e13d505d5523e20e88f264436ffec6f88c68add582c9321",
+  "profile_sha256": "1c0fbcd3816edb84cfa865adefe33ca77c8d9678a0ee5c29778be3958f10e2a6",
+  "targets": [
+    "HICPOV_EA",
+    "HICPNG_EA",
+    "HICPNEF_EA",
+    "IPMN_EA",
+    "IPCAG_EA",
+    "IPCOG_EA",
+    "IPDCOG_EA",
+    "IPNDCOG_EA",
+    "IPING_EA",
+    "IPNRG_EA"
+  ],
+  "panels": [
+    "M",
+    "MQ"
+  ]
+}

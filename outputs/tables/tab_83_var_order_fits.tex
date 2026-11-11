@@ -1,0 +1,14 @@
+\begin{threeparttable}
+\begin{tabular}{lrrrr}
+\toprule
+ & Log-likelihood, first date & Largest root, first date & Largest root, any date & Dates with the lowest BIC \\
+\midrule
+VAR(1) & $-$8567.4 & 0.97 & 0.98 & 5 \\
+VAR(2) & $-$8534.1 & 0.89 & 0.93 & 7 \\
+VAR(3) & $-$8517.7 & 0.90 & 0.92 & 0 \\
+\bottomrule
+\end{tabular}
+\begin{tablenotes}[flushleft]\footnotesize
+\item \textit{Notes:} EM fits of the \NSeriesMonthly{} monthly series, started from principal components, at the first forecast date and at each December through 2025 (\NLagDates{} dates), by order of the factor VAR. Largest root: of the companion matrix. BIC: $-2$ times the log-likelihood of the state-space model plus the number of VAR coefficients times the log of the number of months. The model uses two lags. \textit{Source:} EA-MD-QD, own calculations.
+\end{tablenotes}
+\end{threeparttable}

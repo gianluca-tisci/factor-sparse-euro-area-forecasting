@@ -1,0 +1,16 @@
+\begin{threeparttable}
+\begin{tabular}{@{}lrrrrr@{}}
+\toprule
+ & \multicolumn{2}{c}{DFM} & \multicolumn{2}{c}{FP-DFM} & LASSO \\
+\cmidrule(lr){2-3} \cmidrule(lr){4-5}
+Target & Without E & E in factors & E in factors & E in sparse step & E in LASSO \\
+\midrule
+Headline & 0.075013 & 0.084231 & 0.083472 & 0.075275 & 0.065402 \\
+Energy & 3.891094 & 4.752399 & 4.796374 & 3.840230 & 2.956302 \\
+Core & 0.019784 & 0.014423 & 0.014814 & 0.016163 & 0.018572 \\
+\bottomrule
+\end{tabular}
+\begin{tablenotes}[flushleft]\footnotesize
+\item \textit{Notes:} MSE in squared percentage points. Without E: M; E in factors: ME; E in sparse step: FP-DFM with the M factors and common forecast fixed, adding external residuals only to the sparse step; E in LASSO: direct LASSO in ME. Candidate predictors and training rows may differ. Matched target months through December 2025, excluding 2020. Source: saved paper and fixed-factor experiments.
+\end{tablenotes}
+\end{threeparttable}

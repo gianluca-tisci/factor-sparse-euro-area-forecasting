@@ -1,0 +1,13 @@
+{
+  "sources": {
+    "outputs/forecasts/paper_experiment_nonzero_iqr/forecasts.csv": "ace0953da12b061d86a33eef4535f457aa84ec2e89b24e770735515069f5f68f",
+    "outputs/forecasts/paper_experiment_nonzero_iqr/coverage.csv": "7fbfb20e596e64f3db1d6ff077369e0c1272269fadedc2dccf03d86eb77ec62b",
+    "outputs/forecasts/paper_experiment_nonzero_iqr/tuning.csv": "e56068764386fe8c0a2d5c405ae2435bc30d6bd5ce18ee30ee52acb6b8c4237f",
+    "outputs/forecasts/paper_experiment_nonzero_iqr/selected_predictors.csv": "8aa26ace5a17a35bbad41ab7375289165422ca1af6519cee433d4b8230ede07f",
+    "outputs/forecasts/fixed_dfm_external_sparse_nonzero_iqr/forecasts.csv": "7caf0d122055a1519a87210fae5b2ea26c991a691a05a971a489d6d619b348c6",
+    "outputs/reports/nonzero_robustness/mqe_ablation/forecasts.csv": "f6c75127f12a5e277dcb4f3b745fc42b1fd5446f80e770ea814a315b9e4eb2ab",
+    "scripts/report_nonzero_energy_reversal.py": "438a30b7f7cd127076eff191b78a6b13f7fb51efc91d4bbcf7b723d6ec91da7c",
+    "scripts/report_mq_energy_diagnostics.py": "7f70f1b900708bfbc88863379d4254d32589757df5384d26d52c281590112de4"
+  },
+  "model_refits": 0
+}

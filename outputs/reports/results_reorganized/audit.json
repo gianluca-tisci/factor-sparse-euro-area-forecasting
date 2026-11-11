@@ -1,0 +1,13 @@
+{
+  "sources": {
+    "outputs/forecasts/paper_experiment_nonzero_iqr/scores.csv": "c210396b73d7f2d69c3e624e9be2d595d7cc33b3073bcf68a10232f13add4145",
+    "outputs/forecasts/paper_experiment_nonzero_iqr/forecasts.csv": "ace0953da12b061d86a33eef4535f457aa84ec2e89b24e770735515069f5f68f",
+    "outputs/forecasts/paper_experiment_nonzero_iqr/coverage.csv": "7fbfb20e596e64f3db1d6ff077369e0c1272269fadedc2dccf03d86eb77ec62b",
+    "outputs/forecasts/paper_experiment_nonzero_iqr/robustness.csv": "ed7515ef155f922062a01d1c9bb1c1193075ecef463bcdb2c885ae0d9445bc97",
+    "outputs/reports/nonzero_robustness/inflation_crisis/scores.csv": "1553acbe432b30165c66d11987e73a6fb57a417846b74297af50d7908fcb1428",
+    "scripts/reorganized_results_exhibits.py": "a9a6679c3baa408c124916566937c4e59c1c758c8a7f6760c65bd9ce95ff8cb8",
+    "src/_style.py": "dec496615e94c9a442d1bdb593591c3d93371f3b5cdab5b93ec12b24fa00b05f"
+  },
+  "model_refits": 0,
+  "endpoint_checks": 24
+}

@@ -1,0 +1,24 @@
+classification: EXPLORATORY_EVALUATION_SENSITIVITY
+source_run: outputs/forecasts/paper_experiment
+targets: [HICPOV_EA, HICPNG_EA, HICPNEF_EA]
+information_sets: [M, MQ, ME, MQE]
+score_through: '2025-12'
+always_exclude_target_years: [2020]
+exclusions:
+  outside_energy_crisis:
+    start: '2021-01'
+    end: '2023-12'
+  outside_war_phase:
+    start: '2022-02'
+    end: '2023-12'
+primary_sensitivity: outside_energy_crisis
+training_policy: unchanged_saved_forecasts
+rationale: >-
+  Broad calendar-year envelope of the 2021-2023 energy crisis named in
+  European Commission COM(2025)72. This is an operational exclusion, not an
+  official uniform dating of the crisis for every inflation component.
+  The narrower war-phase exclusion is a boundary sensitivity, fixed before
+  calculating either result. All targets and information sets use the same bounds.
+sources:
+  - https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A52025DC0072
+  - https://www.ecb.europa.eu/press/economic-bulletin/focus/2022/html/ecb.ebbox202204_01~68ef3c3dc6.en.html

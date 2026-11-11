@@ -1,0 +1,32 @@
+# Execution profile for scripts/analysis.py; research_design.yaml remains canonical.
+# User's final instruction: test by forecast date from 2015-01, NOT 239 origins.
+classification: BASELINE
+test_start: '2015-01'
+horizon: 1
+quarterly_series:
+  - GDP_EA
+  - HFCE_EA
+  - GFCE_EA
+  - GFCF_EA
+  - EXPGS_EA
+  - IMPGS_EA
+  - WS_EA
+  - TEMP_EA
+  - THOURS_EA
+  - EMPRT_EA
+  - EMPPR_EA
+  - EMPPA_EA
+  - GFACON_EA
+  - GFAMG_EA
+  - CONSD_EA
+  - ESC_EA
+# Fixed before inspecting test results. Same structural DFM; corrected exact EM.
+initial_factor_variance: 10.0
+variance_floor: 1.0e-8
+missing_feature_policy: complete_training_rows_and_available_forecast_columns
+# Adopted on this branch by Pietro Ganzerli, 7 November (D-66, D-67).
+# PCR remains unchanged; the DFM warm chain is preserved.
+pca_missing_method: balanced_months_then_VAR_carry
+dfm_initialization: balanced_t_minus_3
+reestimation_start: warm  # retained explicitly; matches the existing runner
+training_outlier_policy: cleaned_inputs_and_labels  # D-18; published scoring values unchanged

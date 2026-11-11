@@ -1,0 +1,22 @@
+\begin{threeparttable}
+\begin{tabular}{llllr}
+\toprule
+Sample & Target & Scope & Best & MSE / AR \\
+\midrule
+including 2020 & Headline & all sets & LASSO-MQE & 0.760 \\
+including 2020 & Energy & all sets & LASSO-MQE & 0.933 \\
+including 2020 & Core & all sets & PCR-ME & 0.774 \\
+including 2020 & Manufacturing & all sets & DFM-MQE & 0.299 \\
+broader & Headline & all sets & LASSO-MQE & 0.775 \\
+broader & Energy & all sets & LASSO-MQE & 0.942 \\
+broader & Core & all sets & PCR-ME & 0.782 \\
+broader & Manufacturing & all sets & DFM-MQE & 0.305 \\
+exclude Feb 2022--Dec 2023 & Headline & M/MQ & DFM+AR-MQ & 0.923 \\
+exclude Feb 2022--Dec 2023 & Energy & M/MQ & DFM+AR-MQ & 0.944 \\
+exclude Feb 2022--Dec 2023 & Core & M/MQ & DFM+AR-M & 0.898 \\
+\bottomrule
+\end{tabular}
+\begin{tablenotes}[flushleft]\footnotesize
+\item \textit{Notes:} Including 2020 and broader are the saved run's sample definitions; the narrower crisis exclusion retains the original matched primary dates and also excludes 2020. Narrow-window winners shown for M/MQ inflation only. No refitting. Source: saved robustness and crisis-sensitivity scores.
+\end{tablenotes}
+\end{threeparttable}

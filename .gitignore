@@ -1,0 +1,18 @@
+__pycache__/
+.DS_Store
+.venv/
+.ruff_cache/
+.pytest_cache/
+.env
+
+# Derived data, rebuilt by code
+data/interim/
+data/processed/
+
+# New runs and logs; the two saved runs the paper reads are committed
+outputs/logs/
+outputs/forecasts/*
+!outputs/forecasts/paper_experiment_nonzero_iqr/
+!outputs/forecasts/fixed_dfm_external_sparse_nonzero_iqr/
+!outputs/forecasts/paper_experiment/
+outputs/.previous/

@@ -1,0 +1,20 @@
+\begin{threeparttable}
+\begin{tabular}{lrr}
+\toprule
+ & Series & Residuals \\
+\midrule
+Average absolute correlation & 0.217 & 0.132 \\
+Pairs with absolute correlation above 0.5 & 135 & 34 \\
+Largest absolute correlation & 0.998 & 0.996 \\
+Variance share of first component (percent) & 26.4 & 13.8 \\
+Variance share of first three components (percent) & 49.5 & 31.2 \\
+Components above the noise edge & 5 & 6 \\
+FMM statistic S & 13.25 & 13.22 \\
+Critical value at 5 percent & 11.46 & 9.53 \\
+p-value & 0.023 & 0.003 \\
+\bottomrule
+\end{tabular}
+\begin{tablenotes}[flushleft]\footnotesize
+\item \textit{Notes:} The 47 monthly series of M at the first forecast date, January 2015, on the 176 months observed for every series. Series: cleaned and standardized; residuals: series minus the common component of the dynamic factor model, standardized. Strong pairs: out of 1081. Noise edge: largest eigenvalue for independent series, $(1+\sqrt{n/T})^2$. FMM test: test of a diagonal covariance \citep{fan2023}, on correlations; Bartlett kernel, bandwidth 58, 5{,}000 multiplier draws; exploratory, as its theory assumes principal-component factors and its size at this $n$ and $T$ was not simulated. \textit{Source:} EA-MD-QD, own calculations.
+\end{tablenotes}
+\end{threeparttable}

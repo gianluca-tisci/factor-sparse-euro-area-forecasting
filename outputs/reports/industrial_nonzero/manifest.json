@@ -1,0 +1,17 @@
+{
+  "audit.json": "ed703bedb0d991d10b426335ba35f785b74455225f49bf4fcaed8451c38fe4b5",
+  "coverage.csv": "fc3d98b57befa640e2836008b438a4073efbf4f980ac0c4f707905689bdf5c73",
+  "execution_sources.zip": "8b463d2b25819abd92d30efa03e8dea3ae986559d38c4d7076061ff7996f5850",
+  "fit_monitoring.csv": "37821b38c30a3bee992fc448fce462072114501ec57405fc2cce2fbcb69e2318",
+  "forecasts.csv.gz": "0a23899135c7db58cb15618ec62bc48b0a0495e177a60ebaba34d8e7f5e1ad38",
+  "metadata_M.json": "864c6fc4e18ed99bbe3886def687eb32a7401d0f44642552b8cf909a6e5ce2f9",
+  "metadata_MQ.json": "ff4897bcf681e0ef00d65a54ac1d0941d31e22c1984a787589c75d6550a6cde8",
+  "m_vs_mq.csv": "721114d51bb461db3f02143b30aa1c0daf11ac13196f0bba8cb0e98ee24fa70c",
+  "paired_comparisons.csv": "4c0cf723e4087870d60ca0229e19a614ec224b78dc1659884ea4b8707ff41037",
+  "README.md": "6b963b599de876453a70f80bc4f1aefca465f12f7a0654b0a583f20817ba0d23",
+  "scores.csv": "8c2af0aab8312983060ab11942859421bdd992c8979d236aa0603e52911da03c",
+  "selected.csv.gz": "f741553cd0f886ea901f2dc6ec8770f5a3769ede1a4a231fe3b3d34e69820e46",
+  "tuning.csv.gz": "87e71ab924b9443bb2af9461f8a22984d61402d52809615b1bc1cd89fe333e31",
+  "winners.csv": "39dedbc44d95aeb31cb8f65acd2a394fa38978cb30de3ae17ca9cdc8c945e7e8",
+  "winner_reductions.csv": "6bec54096e8c53c0d7a51f0472ed8b0ffc239c6233d61a9cb27286dc7faf5bf5"
+}

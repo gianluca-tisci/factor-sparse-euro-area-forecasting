@@ -1,0 +1,253 @@
+{
+  "origin": "2020-05",
+  "n_train_months": 244,
+  "iterations": 104,
+  "converged": true,
+  "llf": -11732.512458018464,
+  "rho": 0.9442484838143588,
+  "crashed": false,
+  "cold_check_rho_gap": null,
+  "flagged": false,
+  "pca_iterations": 51,
+  "pca_var_order": 3,
+  "input_outliers": 4,
+  "data_availability": {
+    "UNETOT_EA": {
+      "published": 242,
+      "cleaned": 242,
+      "outliers": 0
+    },
+    "UNEO25_EA": {
+      "published": 242,
+      "cleaned": 242,
+      "outliers": 0
+    },
+    "UNEU25_EA": {
+      "published": 242,
+      "cleaned": 242,
+      "outliers": 0
+    },
+    "REER42_EA": {
+      "published": 242,
+      "cleaned": 242,
+      "outliers": 0
+    },
+    "ERUS_EA": {
+      "published": 243,
+      "cleaned": 243,
+      "outliers": 0
+    },
+    "IRT3M_EACC": {
+      "published": 243,
+      "cleaned": 243,
+      "outliers": 0
+    },
+    "IRT6M_EACC": {
+      "published": 243,
+      "cleaned": 243,
+      "outliers": 0
+    },
+    "LTIRT_EACC": {
+      "published": 243,
+      "cleaned": 243,
+      "outliers": 0
+    },
+    "IPMN_EA": {
+      "published": 242,
+      "cleaned": 242,
+      "outliers": 0
+    },
+    "IPCAG_EA": {
+      "published": 242,
+      "cleaned": 242,
+      "outliers": 0
+    },
+    "IPCOG_EA": {
+      "published": 242,
+      "cleaned": 242,
+      "outliers": 0
+    },
+    "IPDCOG_EA": {
+      "published": 242,
+      "cleaned": 242,
+      "outliers": 0
+    },
+    "IPNDCOG_EA": {
+      "published": 242,
+      "cleaned": 242,
+      "outliers": 0
+    },
+    "IPING_EA": {
+      "published": 242,
+      "cleaned": 242,
+      "outliers": 0
+    },
+    "IPNRG_EA": {
+      "published": 242,
+      "cleaned": 242,
+      "outliers": 0
+    },
+    "TRNMN_EA": {
+      "published": 241,
+      "cleaned": 241,
+      "outliers": 0
+    },
+    "TRNCAG_EA": {
+      "published": 241,
+      "cleaned": 241,
+      "outliers": 0
+    },
+    "TRNCOG_EA": {
+      "published": 241,
+      "cleaned": 241,
+      "outliers": 0
+    },
+    "TRNDCOG_EA": {
+      "published": 241,
+      "cleaned": 241,
+      "outliers": 0
+    },
+    "TRNNDCOG_EA": {
+      "published": 241,
+      "cleaned": 241,
+      "outliers": 0
+    },
+    "TRNING_EA": {
+      "published": 241,
+      "cleaned": 241,
+      "outliers": 0
+    },
+    "TRNNRG_EA": {
+      "published": 241,
+      "cleaned": 241,
+      "outliers": 0
+    },
+    "PPICAG_EA": {
+      "published": 242,
+      "cleaned": 242,
+      "outliers": 0
+    },
+    "PPICOG_EA": {
+      "published": 242,
+      "cleaned": 242,
+      "outliers": 0
+    },
+    "PPINDCOG_EA": {
+      "published": 242,
+      "cleaned": 242,
+      "outliers": 0
+    },
+    "PPIDCOG_EA": {
+      "published": 242,
+      "cleaned": 242,
+      "outliers": 0
+    },
+    "PPIING_EA": {
+      "published": 242,
+      "cleaned": 242,
+      "outliers": 0
+    },
+    "PPINRG_EA": {
+      "published": 242,
+      "cleaned": 242,
+      "outliers": 0
+    },
+    "HICPOV_EA": {
+      "published": 243,
+      "cleaned": 243,
+      "outliers": 0
+    },
+    "HICPNEF_EA": {
+      "published": 243,
+      "cleaned": 243,
+      "outliers": 0
+    },
+    "HICPG_EA": {
+      "published": 243,
+      "cleaned": 243,
+      "outliers": 0
+    },
+    "HICPIN_EA": {
+      "published": 243,
+      "cleaned": 243,
+      "outliers": 0
+    },
+    "HICPSV_EA": {
+      "published": 243,
+      "cleaned": 243,
+      "outliers": 0
+    },
+    "HICPNG_EA": {
+      "published": 243,
+      "cleaned": 243,
+      "outliers": 0
+    },
+    "ICONFIX_EA": {
+      "published": 244,
+      "cleaned": 244,
+      "outliers": 0
+    },
+    "CCONFIX_EA": {
+      "published": 244,
+      "cleaned": 244,
+      "outliers": 0
+    },
+    "ESENTIX_EA": {
+      "published": 244,
+      "cleaned": 244,
+      "outliers": 0
+    },
+    "KCONFIX_EA": {
+      "published": 244,
+      "cleaned": 244,
+      "outliers": 0
+    },
+    "RTCONFIX_EA": {
+      "published": 244,
+      "cleaned": 244,
+      "outliers": 0
+    },
+    "SCONFIX_EA": {
+      "published": 244,
+      "cleaned": 244,
+      "outliers": 0
+    },
+    "BCI_EA": {
+      "published": 243,
+      "cleaned": 243,
+      "outliers": 0
+    },
+    "CCI_EA": {
+      "published": 243,
+      "cleaned": 243,
+      "outliers": 0
+    },
+    "CURR_EACC": {
+      "published": 243,
+      "cleaned": 240,
+      "outliers": 3
+    },
+    "M1_EACC": {
+      "published": 243,
+      "cleaned": 242,
+      "outliers": 1
+    },
+    "M2_EACC": {
+      "published": 243,
+      "cleaned": 243,
+      "outliers": 0
+    },
+    "SHIX_EA": {
+      "published": 243,
+      "cleaned": 243,
+      "outliers": 0
+    },
+    "CAREG_EA": {
+      "published": 243,
+      "cleaned": 243,
+      "outliers": 0
+    }
+  },
+  "em_min_likelihood_increment": 0.011676451831590384,
+  "seconds": 1.0972533330786973
+}

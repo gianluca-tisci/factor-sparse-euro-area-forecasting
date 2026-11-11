@@ -1,0 +1,9 @@
+panel,model,actual_sign,n,LASSO_win_months,excess_SSE_vs_LASSO
+ME,FarmPredict,negative_actual,11,8,175.76428588425568
+ME,FarmPredict,nonnegative_actual,13,8,40.66215327033264
+ME,Fixed_factor,negative_actual,11,8,131.5988904751964
+ME,Fixed_factor,nonnegative_actual,13,5,-12.890478389504624
+MQE,FarmPredict,negative_actual,11,7,168.08034169698914
+MQE,FarmPredict,nonnegative_actual,13,7,69.75213092650485
+MQE,Fixed_factor,negative_actual,11,10,135.9218881084856
+MQE,Fixed_factor,nonnegative_actual,13,5,-10.603386712455997
