@@ -1,0 +1,17 @@
+{
+  "sources": {
+    "C:\\Users\\pietr\\Documents\\ML_Final_Project\\scripts\\paper_three_sets_residuals.py": "da0d65c9815e80c1733054136c8a8a730f9f04107e7421ddc9691fd04d33ba63",
+    "scripts\\sparse_diagnostics.py": "c7fe3ce15045e663f924621bbb4a4a81ed58b6702545b872ee85244ced06e3e8",
+    "outputs\\forecasts\\paper_experiment_nonzero_iqr\\M\\metadata.json": "c3414dce9fdde7eb2743f2b642b0c1fc4c75fbb62abd9b178bd2cab6abcbe605",
+    "outputs\\forecasts\\paper_experiment_nonzero_iqr\\M\\2015-01\\parameters.npz": "334c21546b3856807576de46d623794414657f6d55ebec834d0dd18951065ac4",
+    "outputs\\forecasts\\paper_experiment_nonzero_iqr\\M\\2026-08\\parameters.npz": "fd0960cef716be3b70e99891edee1b9c5ff265cdf3d15a0079c60ec5d4f490a9",
+    "outputs\\forecasts\\paper_experiment_nonzero_iqr\\MQ\\metadata.json": "e4388b52160305f8282610dd1735c4b9f8554b0eb7000a8814ee100508152014",
+    "outputs\\forecasts\\paper_experiment_nonzero_iqr\\MQ\\2015-01\\parameters.npz": "3b1c00adb3793d905b6b193e55ece383a59f051a58a1b96d1e528171a1f36a70",
+    "outputs\\forecasts\\paper_experiment_nonzero_iqr\\MQ\\2026-08\\parameters.npz": "6b80d9f3f0a71da4fa86f72f3777b1086cd85d6377d145bc42b79d61dce1da95",
+    "outputs\\forecasts\\paper_experiment_nonzero_iqr\\ME\\metadata.json": "adf27759a8f50bd84184f0aad5b6d3195da8e9d6cd19819d90372cce36360572",
+    "outputs\\forecasts\\paper_experiment_nonzero_iqr\\ME\\2015-01\\parameters.npz": "0151fcc3da15a8509c403610065c8cd342662631fd5489a9bd75d1ac05f80492",
+    "outputs\\forecasts\\paper_experiment_nonzero_iqr\\ME\\2026-08\\parameters.npz": "f75edec8cb32507fe25ffd5dcc02fd8b74f1f22baa5003d9b1e1333fd4e57e4f"
+  },
+  "parameter_refits": 0,
+  "fixed_parameter_smoothers": 6
+}

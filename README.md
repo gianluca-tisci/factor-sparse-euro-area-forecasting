@@ -32,7 +32,7 @@ This repository holds the code, data and saved results behind every figure, tabl
 |:--|:--|
 | **Targets** | headline, energy and core HICP inflation; manufacturing industrial production; each forecast as its month-on-month change in percent |
 | **Panel** | EA-MD-QD, release 09.2026 ([Barigozzi and Lissona](https://zenodo.org/records/23064892)): 47 monthly euro-area series, 16 quarterly series, and 24 external monthly series |
-| **Information sets** | M (monthly panel), MQ (+ quarterly), ME (+ external), MQE (both) |
+| **Information sets** | M (monthly panel), MQ (+ quarterly), ME (+ external); the saved run also has MQE (both), which the paper does not report |
 | **Models** | RW, AR, PCR, PCA-VAR, FP-PCA (PCA + VAR + LASSO), DFM, DFM-AR, LASSO, FP-DFM (DFM + LASSO); 24 model-by-information-set specifications |
 | **Factor step** | mixed-frequency dynamic factor model estimated by EM and the Kalman smoother, quarterly series through Mariano–Murasawa aggregation; principal components for the PCA variants |
 | **Exercise** | pseudo-real-time on revised data: at the end of each month from January 2015 to August 2026 (140 dates) every model is re-estimated on the data published by then, each series with its own publication delay, and forecasts its target's first unpublished month |

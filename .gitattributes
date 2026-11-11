@@ -44,3 +44,9 @@ outputs/reports/core_common_share_comparison/numbers.tex text eol=lf
 outputs/reports/manufacturing_common_share_comparison/numbers.tex text eol=lf
 scripts/core_common_share_comparison.py text eol=lf
 scripts/manufacturing_common_share_comparison.py -text whitespace=cr-at-eol
+
+# Three-set paper displays preserve the bytes recorded by their audits.
+outputs/reports/paper_three_sets/** -text whitespace=cr-at-eol
+outputs/reports/paper_three_sets/**/*.tex text eol=lf
+outputs/reports/paper_three_sets/numbers.tex text eol=lf
+scripts/paper_three_sets*.py -text whitespace=cr-at-eol

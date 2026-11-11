@@ -1,0 +1,18 @@
+\begin{threeparttable}
+\begin{tabular}{llllr}
+\toprule
+Sample & Target & Scope & Best & MSE / AR \\
+\midrule
+All forecasts & Headline & M/MQ/ME & LASSO in ME & 0.797 \\
+All forecasts & Energy & M/MQ/ME & LASSO in ME & 0.951 \\
+All forecasts & Core & M/MQ/ME & PCR in ME & 0.782 \\
+All forecasts & Manufacturing & M/MQ/ME & DFM in MQ & 0.305 \\
+Without Feb 2022--Dec 2023 & Headline & M/MQ & DFM-AR in MQ & 0.923 \\
+Without Feb 2022--Dec 2023 & Energy & M/MQ & DFM-AR in MQ & 0.944 \\
+Without Feb 2022--Dec 2023 & Core & M/MQ & DFM-AR in M & 0.898 \\
+\bottomrule
+\end{tabular}
+\begin{tablenotes}[flushleft]\footnotesize
+\item \textit{Notes:} All-forecast winners recomputed across M, MQ and ME and the shared benchmarks; narrower-exclusion comparisons retain M/MQ. No refits. Source: saved robustness scores.
+\end{tablenotes}
+\end{threeparttable}

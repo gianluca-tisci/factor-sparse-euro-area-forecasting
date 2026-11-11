@@ -1,0 +1,19 @@
+{
+  "sources": {
+    "outputs\\forecasts\\paper_experiment_nonzero_iqr\\fit_monitoring.csv": "4e3a1015f2f245236813b906230e6cbf808068680a057380fafc1427e31ee43a",
+    "outputs\\forecasts\\paper_experiment_nonzero_iqr\\forecasts.csv": "ace0953da12b061d86a33eef4535f457aa84ec2e89b24e770735515069f5f68f",
+    "outputs\\forecasts\\paper_experiment_nonzero_iqr\\data_availability.csv": "9ccaa2d42f6ac15cbabe192901ff1672c452548d7ec440da7afd69295c78c025",
+    "outputs\\forecasts\\paper_experiment_nonzero_iqr\\robustness.csv": "ed7515ef155f922062a01d1c9bb1c1193075ecef463bcdb2c885ae0d9445bc97",
+    "outputs\\reports\\results_ladder\\tables\\tab_105_ladder_all_sets.tex": "3bcaac2c599ada32c13b10686afea53d86bae8b2eef0998b50213ca54a01c3d3",
+    "outputs\\reports\\robustness_table_display\\tables\\tab_101_robustness_summary.tex": "cd6ff21d1684ada2a6f605f14b85466d9ed2852651308870cbf811ef2634a731",
+    "C:\\Users\\pietr\\Documents\\ML_Final_Project\\scripts\\paper_three_sets.py": "28e3ad6ee02a4d62f5541dac1690821ed4a8be2b93361b6d6aeadd4836f4a77a"
+  },
+  "retained_sets": [
+    "M",
+    "MQ",
+    "ME"
+  ],
+  "model_refits": 0,
+  "specifications_per_target": 20,
+  "dfm_fits": 420
+}

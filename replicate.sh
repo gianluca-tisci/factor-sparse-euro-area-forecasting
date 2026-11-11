@@ -41,6 +41,7 @@ run inflation_external_selection_report
 run core_common_share_comparison
 run manufacturing_common_share_comparison
 run results_section_nonzero
+run paper_three_sets           # restricts the reported diagnostics and robustness tables to M, MQ, ME
 
 # Sections 2-3 and the appendix: data, number of factors, sparse step, design numbers
 run descriptives
@@ -49,6 +50,7 @@ run sparse_diagnostics
 run results_figures
 run design_numbers
 run paper_draft_report
+run paper_three_sets_residuals
 
 echo
 run check_replication
