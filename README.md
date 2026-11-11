@@ -11,14 +11,15 @@ We take FarmPredict to the euro area and ask two questions:
 
 This repository holds the code, data and saved results behind every figure, table and number in the paper.
 
-> **Abstract.** We examine whether sparse forecasts of idiosyncratic components improve factor-based predictions of euro-area headline, energy and core inflation and manufacturing production.
+> **Abstract.** Factor models treat what the common factors leave out as noise, yet a shock to one sector may stay there and help to predict related series.
+> We examine whether sparse forecasts of these idiosyncratic components improve factor-based predictions of euro-area headline, energy and core inflation and manufacturing production, and whether quarterly and external series, which the monthly panel lacks, strengthen them.
 > Using EA-MD-QD and external indicators, we compare FarmPredict with factor-only, direct LASSO and autoregressive benchmarks in an expanding-window pseudo-real-time exercise respecting publication delays.
 > Sparse corrections yield small, robust gains for core inflation with dynamic factors and manufacturing with principal components, but no systematic advantage over LASSO.
 > Several rankings depend on the 2021–2023 crisis.
 > Quarterly series improve manufacturing's factor forecasts; external indicators improve core factor forecasts and direct LASSO forecasts for all three inflation targets.
-> Additional information helps mainly through factors or direct predictors, with limited gains from sparse residual corrections.
+> Contrary to the intuition that sector-specific information stays in the residuals, additional information helps through the factors or direct predictors, hardly through the sparse step.
 
-📄 Paper (PDF): added to [`paper/`](paper/) on submission &nbsp;·&nbsp; 🔁 [Rebuild the exhibits](replicate.sh) &nbsp;·&nbsp; 🧮 [Forecasting code](src/forecasting/)
+📄 [Paper (PDF)](paper/Ganzerli_Menci_Tisci_ML4E_Paper.pdf) and [appendix](paper/Ganzerli_Menci_Tisci_ML4E_Appendix.pdf) &nbsp;·&nbsp; 🔁 [Rebuild the exhibits](replicate.sh) &nbsp;·&nbsp; 🧮 [Forecasting code](src/forecasting/)
 
 ![Python](https://img.shields.io/badge/Python-3.13-3776AB?logo=python&logoColor=white)
 ![uv](https://img.shields.io/badge/env-uv-DE5FE9)
