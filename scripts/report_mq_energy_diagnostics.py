@@ -89,8 +89,7 @@ def main():
     paragraphs = [
         "# M/MQ and energy forecast diagnostics",
         (
-            "Saved all-cold paper run; primary scoring dates through 2025-12; 2020 target months excluded. "
-            "No estimators, settings, saved forecasts or LaTeX files are changed. This is a research review note, not paper prose."
+            "Saved all-cold paper run; primary scoring dates through 2025-12; 2020 target months excluded."
         ),
         "## Quarterly information: matched-model comparisons",
         (
